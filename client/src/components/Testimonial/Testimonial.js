@@ -1,9 +1,9 @@
 import React from 'react'
-import "./testimonial"
+import "./testimonial.css"
 
 const Testimonial = () => {
     return (
-        <div className="testimonial">
+        <div className="testimonial" id='testimonial'>
           <h2>Testimonial Page</h2>
         </div>
       );

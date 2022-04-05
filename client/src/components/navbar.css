@@ -11,6 +11,9 @@
   height: 70px;
   justify-content: right;
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar-main ul {
@@ -23,8 +26,14 @@
   margin-right: 50px;
   align-items: center;
   display: flex;
-}
-.navbar-main ul li a {
   color: white;
+  cursor: pointer;
 }
 
+/* .navbar-main ul li:hover{
+  color: yellow;
+} */
+
+.nav-item .active {
+  border-bottom: 2px solid yellow;
+}
