@@ -10,11 +10,17 @@ const App = () => {
   return (
     <React.Fragment>
       <Navbar />
+      <Testimonial />
+      <Testimonial />
+      <Testimonial />
+      <Testimonial />
+      <Testimonial />
+      <Testimonial />
+
       <Home />
       <About />
       <Career />
       <Feedback />
-      <Testimonial />
     </React.Fragment>
   );
 };

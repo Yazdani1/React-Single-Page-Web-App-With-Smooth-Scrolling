@@ -1,6 +1,7 @@
 import React from "react";
 import "./testimonial.css";
-
+import Fade from "react-reveal/Fade";
+import Flip from 'react-reveal/Flip';
 const Testimonial = () => {
   const data = [
     {
@@ -56,24 +57,26 @@ const Testimonial = () => {
   return (
     <div className="container" id="testimonial">
       <div className="testimonial">
-        <h2>Testimonial</h2>
-        <span className="line"></span>
+        <Flip left>
+          <h2>Testimonial</h2>
+          <span className="line"></span>
+
+        </Flip>
       </div>
       <div className="row">
         {data.map((item, index) => (
-          <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
-            <div className="card content">
-              <img src={item.img} alt="image" />
-              <p>{item.content}</p>
-              <p>
-                <span className="name">{item.name}</span>
-              </p>
-              <p>{item.position}</p>
-              <span className="line"></span>
-
+          <Fade right>
+            <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
+              <div className="card content">
+                <img src={item.img} alt="image" />
+                <p>{item.content}</p>
+                <p>
+                  <span className="name">{item.name}</span>
+                </p>
+                <p>{item.position}</p>
+              </div>
             </div>
-
-          </div>
+          </Fade>
         ))}
       </div>
     </div>
