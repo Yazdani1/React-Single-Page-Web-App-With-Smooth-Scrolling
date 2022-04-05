@@ -5,19 +5,19 @@ import {Link} from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="navbar-main">
-      <ul className="nav-menu-items">
+      <ul>
         <li className="nav-item">
-          <Link to="home" spy={true} smooth={true} offset={-100} duration={1000}>
+          <Link to="home" spy={true} smooth={true} offset={-100} duration={100}>
             Home
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="about" spy={true} smooth={true} offset={-100} duration={1000}>
+          <Link to="about" spy={true} smooth={true} offset={-100} duration={100}>
             About
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="career" spy={true} smooth={true} offset={-100} duration={1000}>
+          <Link to="career" spy={true} smooth={true} offset={-100} duration={100}>
             Career
           </Link>
         </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={1000}
+            duration={100}
           >
             Feedback
           </Link>

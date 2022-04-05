@@ -34,11 +34,12 @@
   color: yellow;
 } */
 
-.nav-item:hover{
-  border-bottom: 2px solid yellow;
 
-}
 
 .nav-item .active {
   border-bottom: 2px solid yellow;
+  color: yellow;
+}
+.navbar-main li:hover{
+  color: yellow;
 }

@@ -1,5 +1,47 @@
-.testimonial {
+.container {
   height: 1150px;
-  background-color: violet;
-  color: aliceblue;
+  padding: 20px;
+  color: black;
+}
+
+.testimonial h2 {
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: rgb(122, 122, 23);
+}
+
+.content {
+  padding: 10px;
+  color: black;
+  margin-top: 50px;
+}
+.content img {
+  height: 80px;
+  width: 80px;
+  border-radius: 90px;
+  margin-top: -30px;
+  object-fit: cover;
+}
+
+.content:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+
+  cursor: pointer;
+  transition-duration: 1s;
+  background-color: brown;
+  color: white;
+}
+
+.name {
+  font-weight: 20px;
+  color: green;
+  font-size: 20px;
 }
