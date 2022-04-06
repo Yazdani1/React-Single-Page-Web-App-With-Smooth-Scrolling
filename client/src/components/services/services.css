@@ -8,14 +8,16 @@
 .services-title h2{
     text-align: center;
 }
-.learn-more-button{
-    border: 1px solid black;
+.view-details-button{
+    border: 1px solid blue;
     padding: 5px;
     border-radius: 10px;
     text-align: center;
     margin-top: 20px;
+   
+
 }
-.learn-more-button:hover{
+.view-details-button:hover{
     background-color: blueviolet;
     color: white;
     cursor: pointer;
