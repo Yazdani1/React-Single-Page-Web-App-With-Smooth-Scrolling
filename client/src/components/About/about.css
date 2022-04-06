@@ -1,5 +1,17 @@
-.about {
-  height: 600px;
-  background-color: blueviolet;
+.about-section{
+  height: 700px;
+}
+
+.container {
   color: white;
+}
+.about-image img{
+
+  object-fit: cover;
+  border-radius: 190px;
+
+}
+.about-details{
+  margin-left: 80px;
+  text-align: left;
 }

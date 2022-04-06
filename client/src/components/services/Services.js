@@ -48,7 +48,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="container" id="service">
+    <div className="container service-section" id="service">
       <div className="services-title">
         <Flip left>
           <h2>Services</h2>

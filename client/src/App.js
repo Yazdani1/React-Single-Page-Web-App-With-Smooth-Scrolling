@@ -12,15 +12,11 @@ const App = () => {
     <React.Fragment>
       <Navbar />
       <Testimonial />
-      <Testimonial />
-      <Testimonial />
-      <Testimonial />
-      <Testimonial />
-      <Testimonial />
+  
 
-      <Home />
+      {/* <Home /> */}
       <About />
-      <Career />
+      {/* <Career /> */}
       <Services/>
       <Feedback />
     </React.Fragment>
