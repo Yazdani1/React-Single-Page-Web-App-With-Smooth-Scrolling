@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Career from "./components/Career/Career";
 import Feedback from "./components/Feedback/Feedback";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Services from "./components/services/Services";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Home />
       <About />
       <Career />
+      <Services/>
       <Feedback />
     </React.Fragment>
   );
