@@ -1,5 +1,6 @@
 import React from "react";
 import "./video.css";
+import Flip from "react-reveal/Flip";
 
 const Video = () => {
   return (
@@ -7,22 +8,40 @@ const Video = () => {
       <div className="container">
         <div className="services-title">
           <Flip left>
-            <h2>Services</h2>
+            <h2>Video Demo</h2>
             <span className="line"></span>
           </Flip>
         </div>
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-            <div className="card services">
-              <h6>Video Demo</h6>
-              <p>Video Description</p>
-              <span className="view-details-button">View Details</span>
+            <div className="card video-description">
+              <h1>Overall Work Process</h1>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content
+                here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem
+                Ipsum as their default model text, and a search for 'lorem
+                ipsum' will uncover many web sites still in their infancy.
+             
+              </p>
+              <span className="video-demo-button">Book Your Demo</span>
             </div>
           </div>
 
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
             <div className="youtube-video">
-              <iframe src=""></iframe>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/ABrjdyavqkI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>

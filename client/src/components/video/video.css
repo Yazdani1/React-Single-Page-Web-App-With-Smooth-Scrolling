@@ -1,0 +1,23 @@
+.video-description{
+    padding: 10px;
+    margin-top: 20px;
+    height: 315px;
+}
+
+.youtube-video{
+    margin-top: 20px;
+}
+.video-demo-button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+.video-demo-button:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
