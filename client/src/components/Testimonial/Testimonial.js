@@ -55,7 +55,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="container" id="testimonial">
+    <div className="container testimonial-section" id="testimonial">
       <div className="testimonial">
         <Flip left>
           <h2>Testimonial</h2>

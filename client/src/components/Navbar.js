@@ -61,6 +61,14 @@ const Navbar = () => {
             Testimonial
           </Link>
         </li>
+
+        <li className="nav-item">
+          <Link to="video" spy={true} smooth={true} offset={-100}>
+            Demo Video
+          </Link>
+        </li>
+
+
       </ul>
 
       {/* Normal way to do single page using id of the main container */}

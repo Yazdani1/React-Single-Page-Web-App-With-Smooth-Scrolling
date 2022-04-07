@@ -3,6 +3,10 @@
   color: black;
 }
 
+.testimonial-section{
+  height: 900px;
+}
+
 .testimonial h2 {
   text-align: center;
 }

@@ -1,5 +1,5 @@
 .about-section{
-  height: 700px;
+  height: 900px;
 }
 
 .container {
@@ -9,9 +9,11 @@
 
   object-fit: cover;
   border-radius: 190px;
+  margin-top: 160px;
 
 }
 .about-details{
   margin-left: 80px;
   text-align: left;
+  margin-top: 160px;
 }
