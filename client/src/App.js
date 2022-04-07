@@ -6,19 +6,20 @@ import Career from "./components/Career/Career";
 import Feedback from "./components/Feedback/Feedback";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Services from "./components/services/Services";
+import Video from "./components/video/Video";
 
 const App = () => {
   return (
     <React.Fragment>
       <Navbar />
       <Testimonial />
-  
 
       {/* <Home /> */}
       <About />
       {/* <Career /> */}
-      <Services/>
+      <Services />
       <Feedback />
+      <Video />
     </React.Fragment>
   );
 };
