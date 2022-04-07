@@ -15,7 +15,7 @@ const Video = () => {
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
             <div className="card video-description">
-              <h1>Overall Work Process</h1>
+              <h3>Overall Work Process</h3>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
