@@ -1,12 +1,21 @@
+.video-title h2{
+    text-align: center;
+}
+
 .video-description{
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 315px;
 }
 
 .youtube-video{
-    margin-top: 20px;
+    margin-top: 40px;
 }
+
+.video-section{
+    height: 900px;
+}
+
 .video-demo-button{
     border: 1px solid black;
     border-radius: 10px;
