@@ -1,7 +1,16 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import "./career.css";
 
 const Career = () => {
+
+  const URL="https://jsonplaceholder.typicode.com/posts";
+
+  const [data,setData] = useState([]);
+
+
+
+
+
   return (
     <div className="career" id='career'>
       <h2>Career Page</h2>
