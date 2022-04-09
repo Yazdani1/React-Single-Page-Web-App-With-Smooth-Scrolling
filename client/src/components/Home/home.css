@@ -1,5 +1,36 @@
 .home{
-    height: 600px;
-    background-color: rgb(108, 92, 25);
-    color: aliceblue;
+    height: 100vh;
+    color: #fff;
+    height: 100vh;
+    background-color: rgba(113, 72, 72, 0.7);
+    position: relative;
+}
+
+.home:before {
+    content: '';
+    background: url('../../Images/about.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.home .home-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.view-details-button{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    width: 50%;
 }

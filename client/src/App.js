@@ -12,14 +12,17 @@ const App = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <Testimonial />
 
-      {/* <Home /> */}
+      <Home />
       <About />
       {/* <Career /> */}
       <Services />
       <Feedback />
       <Video />
+      <Testimonial />
+ssss
+      <Navbar />
+
     </React.Fragment>
   );
 };
