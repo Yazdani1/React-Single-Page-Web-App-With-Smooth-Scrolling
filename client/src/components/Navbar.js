@@ -44,17 +44,7 @@ const Navbar = () => {
             Career
           </Link>
         </li>
-        <li className="nav-item">
-          <Link
-            to="feedback"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-          >
-            Feedback
-          </Link>
-        </li>
+    
 
         <li className="nav-item">
           <Link to="testimonial" spy={true} smooth={true} offset={-100}>
@@ -65,6 +55,18 @@ const Navbar = () => {
         <li className="nav-item">
           <Link to="video" spy={true} smooth={true} offset={-100}>
             Demo Video
+          </Link>
+        </li>
+
+        <li className="nav-item">
+          <Link
+            to="feedback"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Feedback
           </Link>
         </li>
 

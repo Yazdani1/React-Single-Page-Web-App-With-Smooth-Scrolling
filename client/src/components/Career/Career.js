@@ -4,11 +4,15 @@ import Data from "./Data";
 import Flip from "react-reveal/Flip";
 import Pagination from "../pagination/Pagination";
 import Fade from "react-reveal/Fade";
+import { SyncOutlined } from "@ant-design/icons";
 
 const Career = () => {
   const URL = "https://jsonplaceholder.typicode.com/posts";
 
   const [data, setData] = useState([]);
+
+  //loading
+  const [loading, setLoading] = useState(true);
 
   //for pagination
 
@@ -32,6 +36,7 @@ const Career = () => {
       .then((result) => {
         if (result) {
           setData(result);
+          setLoading(false);
         }
       })
       .catch((err) => {
@@ -42,6 +47,16 @@ const Career = () => {
   useEffect(() => {
     loadData();
   }, []);
+
+  if (loading) {
+    return (
+      <div className="text-center my-25">
+        <h1>
+          <SyncOutlined spin />
+        </h1>
+      </div>
+    );
+  }
 
   return (
     <div className="container career" id="career">

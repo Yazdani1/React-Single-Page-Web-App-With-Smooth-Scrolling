@@ -18,10 +18,9 @@ const App = () => {
       <Services />
 
       <Career />
-      <Feedback />
       <Video />
       <Testimonial />
-ssss
+      <Feedback />
       <Navbar />
 
     </React.Fragment>
