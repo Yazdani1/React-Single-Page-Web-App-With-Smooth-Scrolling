@@ -46,15 +46,16 @@ const Navbar = () => {
         </li>
     
 
-        <li className="nav-item">
-          <Link to="testimonial" spy={true} smooth={true} offset={-100}>
-            Testimonial
-          </Link>
-        </li>
+ 
 
         <li className="nav-item">
           <Link to="video" spy={true} smooth={true} offset={-100}>
             Demo Video
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="testimonial" spy={true} smooth={true} offset={-100}>
+            Testimonial
           </Link>
         </li>
 
