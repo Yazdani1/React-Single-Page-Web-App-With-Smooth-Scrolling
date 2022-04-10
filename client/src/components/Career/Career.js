@@ -8,6 +8,23 @@ const Career = () => {
 
   const [data, setData] = useState([]);
 
+  
+  //for pagination
+
+   //for pagination
+   const PER_PAGE = 5;
+   const [currentPage, setCurrentPage] = useState(1);
+   const handlePageClick = ({ selected: slectedPage }) => {
+     setCurrentPage(slectedPage);
+   };
+   const offSet = currentPage * PER_PAGE;
+   const currrentPagedata = data.slice(offSet, offSet + PER_PAGE);
+   //total page count
+   const pageCount = Math.ceil(data.length / PER_PAGE);
+   //end page paginaion
+
+
+
   const loadData = () => {
     fetch(URL, {
       method: "GET",
@@ -43,6 +60,9 @@ const Career = () => {
           </>
         ))}
       </div>
+
+
+
     </div>
   );
 };
