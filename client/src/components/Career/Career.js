@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./career.css";
 import Data from "./Data";
+import Flip from "react-reveal/Flip";
 
 const Career = () => {
   const URL = "https://jsonplaceholder.typicode.com/posts";
@@ -28,11 +29,20 @@ const Career = () => {
 
   return (
     <div className="container career" id="career">
-      {data.map((item, index) => (
-        <>
-          <Data key={item.id} title={item.title} des={item.body} />
-        </>
-      ))}
+      <div className="career-title">
+        <Flip left>
+          <h2>Career</h2>
+          <span className="line"></span>
+        </Flip>
+      </div>
+
+      <div className="career-main-content">
+        {data.map((item, index) => (
+          <>
+            <Data key={item.id} title={item.title} des={item.body} />
+          </>
+        ))}
+      </div>
     </div>
   );
 };
