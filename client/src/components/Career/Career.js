@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./career.css";
+import Data from "./Data";
 
 const Career = () => {
   const URL = "https://jsonplaceholder.typicode.com/posts";
@@ -21,11 +22,17 @@ const Career = () => {
       });
   };
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    loadData();
+  }, []);
 
   return (
-    <div className="career" id="career">
-      <h2>Career Page</h2>
+    <div className="container career" id="career">
+      {data.map((item, index) => (
+        <>
+          <Data key={item.id} title={item.title} des={item.body} />
+        </>
+      ))}
     </div>
   );
 };
