@@ -7,6 +7,7 @@ import Feedback from "./components/Feedback/Feedback";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Services from "./components/services/Services";
 import Video from "./components/video/Video";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
       <Video />
       <Testimonial />
       <Feedback />
-      <Navbar />
+      <Footer/>
 
     </React.Fragment>
   );

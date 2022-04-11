@@ -3,7 +3,11 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <React.Fragment>
+        <div className='container-fluid footer'>
+
+        </div>
+    </React.Fragment>
   )
 }
 
