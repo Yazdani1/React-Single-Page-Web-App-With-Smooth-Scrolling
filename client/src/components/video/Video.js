@@ -14,7 +14,7 @@ const Video = () => {
           </Flip>
         </div>
         <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <Fade left>
               <div className="card video-description">
                 <h3>Overall Work Process</h3>
@@ -34,7 +34,7 @@ const Video = () => {
             </Fade>
           </div>
 
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <Fade right>
               <div className="youtube-video">
                 <iframe

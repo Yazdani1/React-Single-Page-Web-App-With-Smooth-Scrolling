@@ -17,3 +17,10 @@
   text-align: left;
   margin-top: 160px;
 }
+
+@media (max-width: 1000px) {
+  .about-section {
+    height: auto;
+  }
+}
+

@@ -1,39 +1,42 @@
-.service-section{
-    height: 900px;
+.service-section {
+  height: 900px;
 }
 
-.services{
-    padding: 10px;
-    margin-top: 100px;
+.services {
+  padding: 10px;
+  margin-top: 100px;
 }
-.services-title h2{
-    text-align: center;
+.services-title h2 {
+  text-align: center;
 }
-.view-details-button{
-    border: 1px solid blue;
-    padding: 5px;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 20px;
-   
+.view-details-button {
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.view-details-button:hover {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.service-number {
+  border-radius: 90px;
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -20px;
+}
 
-}
-.view-details-button:hover{
-    background-color: blueviolet;
-    color: white;
-    cursor: pointer;
-    transition-duration: 0.5s;
-
-}
-.service-number{
-    border-radius: 90px;
-    background-color: blue;
-    height: 30px;
-    width: 30px;
-    color: white;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: -20px;
+@media (max-width: 1000px) {
+  .service-section {
+    height: auto;
+  }
 }
