@@ -6,6 +6,12 @@ const Footer = () => {
     <React.Fragment>
         <div className='container-fluid footer'>
 
+          <div className='row'>
+            <div>
+              
+            </div>
+          </div>
+
         </div>
     </React.Fragment>
   )
