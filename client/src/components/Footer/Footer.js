@@ -7,7 +7,9 @@ const Footer = () => {
       <div className="container-fluid footer">
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <h6>Quick Links</h6>
+            <div className="footer-quicklink-section">
+              <h6>Quick Links</h6>
+            </div>
           </div>
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <h6>More Services</h6>
