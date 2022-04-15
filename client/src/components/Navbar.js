@@ -44,9 +44,6 @@ const Navbar = () => {
             Career
           </Link>
         </li>
-    
-
- 
 
         <li className="nav-item">
           <Link to="video" spy={true} smooth={true} offset={-100}>
@@ -70,8 +67,6 @@ const Navbar = () => {
             Feedback
           </Link>
         </li>
-
-
       </ul>
 
       {/* Normal way to do single page using id of the main container */}
