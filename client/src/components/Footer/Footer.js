@@ -9,6 +9,9 @@ const Footer = () => {
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <div className="footer-quicklink-section">
               <h6>Quick Links</h6>
+              <p>Home</p>
+              <p>About</p>
+              <p>Service</p>
             </div>
           </div>
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
