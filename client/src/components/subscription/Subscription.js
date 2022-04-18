@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Subscription = () => {
   return (
-    <div>Subscription</div>
-  )
-}
+    <React.Fragment>
+      <div className="subscription">
+        <h5>Subscribe to the channel</h5>
+      </div>
+    </React.Fragment>
+  );
+};
 
-export default Subscription
+export default Subscription;
