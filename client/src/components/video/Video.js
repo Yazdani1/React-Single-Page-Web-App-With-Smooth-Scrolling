@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 const Video = () => {
   return (
     <React.Fragment>
-      <div className="container video-section" id="video">
+      <div className="card container video-section" id="video">
         <div className="video-title">
           <Flip left>
             <h2>Video Demo</h2>
@@ -34,7 +34,7 @@ const Video = () => {
             </Fade>
           </div>
 
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
             <Fade right>
               <div className="youtube-video">
                 <iframe

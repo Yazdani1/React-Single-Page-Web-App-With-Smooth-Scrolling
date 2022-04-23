@@ -10,6 +10,7 @@ import Video from "./components/video/Video";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
+import Subscription from "./components/subscription/Subscription";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Video />
       <Team/>
       <Testimonial />
+      <Subscription/>
       <Feedback />
       <Contact/>
       <Footer/>
