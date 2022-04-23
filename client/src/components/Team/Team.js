@@ -3,6 +3,10 @@ import "./team.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 
+import { GrFacebookOption } from "react-icons/gr";
+import { ImLinkedin2 } from "react-icons/im";
+import { AiOutlineTwitter } from "react-icons/ai";
+
 const Team = () => {
   const data = [
     {
@@ -75,12 +79,22 @@ const Team = () => {
                     <h6>{item.name}</h6>
                     <p>{item.content}</p>
                   </div>
+                  <div className="team-social-icon">
+                    <p>
+                      <GrFacebookOption size={25} />
+                    </p>
+                    <p>
+                      <ImLinkedin2 size={20} />
+                    </p>
+                    <p>
+                      <AiOutlineTwitter size={20} />
+                    </p>
+                  </div>
                 </div>
               </div>
             </>
           ))}
         </div>
-
       </div>
     </React.Fragment>
   );

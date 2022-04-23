@@ -5,17 +5,17 @@
   text-align: center;
 }
 .team-info {
-  padding: 20px;
+  padding: 10px;
 }
 .team-members-item {
   margin-top: 20px;
-  height: 450px;
-  width: 350px;
+  height: 440px;
+
   overflow: hidden;
 
 }
 .team-members-item img {
-  height: 210px;
+  height: 250px;
   object-fit: cover;
   cursor: pointer;
   transition: transform 2s, filter 1.5s ease-in-out;
@@ -28,6 +28,24 @@
   transform: scale(1.1);
 }
 
+.team-social-icon{
+    display: flex;
+ 
+
+}
+
+.team-social-icon p{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 90px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
 
 
 
