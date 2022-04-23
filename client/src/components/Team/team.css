@@ -20,7 +20,7 @@
 
   transition: transform 2s, filter 1.5s ease-in-out;
   transform-origin: center center;
-  filter: brightness(40%);
+  filter: brightness(70%);
 }
 
 .team-members-item:hover img {

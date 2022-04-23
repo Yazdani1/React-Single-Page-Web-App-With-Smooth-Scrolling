@@ -9,6 +9,7 @@ import Services from "./components/services/Services";
 import Video from "./components/video/Video";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Team/>
       <Testimonial />
       <Feedback />
+      <Contact/>
       <Footer/>
 
     </React.Fragment>
