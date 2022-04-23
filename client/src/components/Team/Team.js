@@ -64,34 +64,36 @@ const Team = () => {
       <div className="container team-members" id="teammemebrs">
         <div className="team">
           <Flip left>
-            <h2>Team Members</h2>
+            <h3>Team Members</h3>
             <span className="line"></span>
           </Flip>
         </div>
         <div className="row">
           {data.map((item, index) => (
             <>
-              <div className="col-lg-4 col-md-6 col-xl-4">
-                <div className="card team-members-item">
-                  <img src={item.img} />
+              <Fade left>
+                <div className="col-lg-4 col-md-6 col-xl-4">
+                  <div className="card team-members-item">
+                    <img src={item.img} />
 
-                  <div className="team-info">
-                    <h6>{item.name}</h6>
-                    <p>{item.content}</p>
-                  </div>
-                  <div className="team-social-icon">
-                    <p>
-                      <GrFacebookOption size={25} />
-                    </p>
-                    <p>
-                      <ImLinkedin2 size={20} />
-                    </p>
-                    <p>
-                      <AiOutlineTwitter size={20} />
-                    </p>
+                    <div className="team-info">
+                      <h6>{item.name}</h6>
+                      <p>{item.content}</p>
+                    </div>
+                    <div className="team-social-icon">
+                      <p>
+                        <GrFacebookOption size={25} />
+                      </p>
+                      <p>
+                        <ImLinkedin2 size={20} />
+                      </p>
+                      <p>
+                        <AiOutlineTwitter size={20} />
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Fade>
             </>
           ))}
         </div>

@@ -1,7 +1,7 @@
 .team-members {
-  height: 1400px;
+  height: 1200px;
 }
-.team h2 {
+.team h3 {
   text-align: center;
 }
 .team-info {
@@ -10,41 +10,44 @@
 .team-members-item {
   margin-top: 20px;
   height: 440px;
-
   overflow: hidden;
 
 }
 .team-members-item img {
-  height: 250px;
+  height: 240px;
   object-fit: cover;
   cursor: pointer;
+
   transition: transform 2s, filter 1.5s ease-in-out;
   transform-origin: center center;
-  filter: brightness(70%);
+  filter: brightness(40%);
 }
 
 .team-members-item:hover img {
   filter: brightness(100%);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .team-social-icon{
     display: flex;
- 
+    justify-content: right;
 
 }
 
 .team-social-icon p{
-    height: 50px;
-    width: 50px;
-    background-color: blueviolet;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(52, 51, 40);
     color: white;
     border-radius: 90px;
-    text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
     margin: 10px;
+}
+.team-social-icon p:hover{
+    background-color: blueviolet;
+    cursor: pointer;
 }
 
 
