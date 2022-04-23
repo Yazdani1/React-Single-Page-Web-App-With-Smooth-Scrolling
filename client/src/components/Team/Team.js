@@ -80,6 +80,8 @@ const Team = () => {
                       <h6>{item.name}</h6>
                       <p>{item.content}</p>
                     </div>
+                    <span className="lineforteammembers"></span>
+
                     <div className="team-social-icon">
                       <p>
                         <GrFacebookOption size={25} />

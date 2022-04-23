@@ -13,14 +13,24 @@
 
 }
 .about-details{
-  margin-left: 80px;
   text-align: left;
   margin-top: 160px;
+  padding: 20px;
 }
 
 @media (max-width: 1000px) {
   .about-section {
     height: auto;
   }
+}
+
+.about-list{
+  display: flex;
+  margin-top: 10px;
+
+}
+
+.about-list p{
+padding-top: 5px;
 }
 

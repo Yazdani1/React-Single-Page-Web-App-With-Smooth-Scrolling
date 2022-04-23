@@ -9,7 +9,7 @@
 }
 .team-members-item {
   margin-top: 20px;
-  height: 440px;
+  height: auto;
   overflow: hidden;
 
 }
@@ -48,6 +48,14 @@
 .team-social-icon p:hover{
     background-color: blueviolet;
     cursor: pointer;
+}
+
+.lineforteammembers{
+  display: block;
+  width: 170px;
+  height: 1px;
+  margin: 2px auto;
+  background-color: rgb(16, 16, 15);
 }
 
 
