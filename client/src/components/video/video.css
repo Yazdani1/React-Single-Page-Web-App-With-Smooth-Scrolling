@@ -41,6 +41,6 @@
     height: auto;
   }
   .youtube-video iframe {
-    width: 400px;
+    width: auto;
   }
 }

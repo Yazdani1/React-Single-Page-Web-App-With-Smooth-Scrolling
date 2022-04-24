@@ -34,12 +34,16 @@
   color: yellow;
 } */
 
-
-
 .nav-item .active {
   border-bottom: 2px solid yellow;
   color: yellow;
 }
-.navbar-main li:hover{
+.navbar-main li:hover {
   color: yellow;
+}
+
+@media (max-width: 1000px) {
+  .navbar-main {
+    display: none;
+  }
 }
