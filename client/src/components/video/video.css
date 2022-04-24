@@ -1,37 +1,46 @@
-.video-title h2{
-    text-align: center;
+.video-title h2 {
+  text-align: center;
 }
 
-.video-description{
-    padding: 10px;
-    margin-top: 40px;
-    height: 315px;
+.video-description {
+  padding: 10px;
+  margin-top: 40px;
+  height: 315px;
 }
 
-.youtube-video{
-    margin-top: 40px;
+.youtube-video iframe{
+  margin-top: 40px;
+  width: 500px;
 }
 
-.video-section{
-    height: 600px;
-    margin-top: 150px;
+.video-section {
+  height: 600px;
+  margin-top: 150px;
 }
 
-.video-demo-button{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: blueviolet;
-    color: white;
-    text-align: center;
+.video-demo-button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
 }
-.video-demo-button:hover{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
-    background-color: white;
-    cursor: pointer;
-    transition-duration: 1s;
+.video-demo-button:hover {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition-duration: 1s;
+}
 
+@media (max-width: 1000px) {
+  .video-section {
+    height: auto;
+  }
+  .youtube-video iframe {
+    width: 400px;
+  }
 }

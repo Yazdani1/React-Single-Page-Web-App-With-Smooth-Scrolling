@@ -27,7 +27,7 @@ const App = () => {
       <Testimonial />
       <Subscription/>
       <Feedback />
-      <Contact/>
+      {/* <Contact/> */}
       <Footer/>
 
     </React.Fragment>

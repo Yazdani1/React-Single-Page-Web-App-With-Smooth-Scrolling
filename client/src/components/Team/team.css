@@ -65,3 +65,12 @@
   margin: 2px auto;
   background-color: rgb(16, 16, 15);
 }
+
+
+
+@media (max-width: 1000px) {
+  .team-members {
+    height: auto;
+  }
+}
+

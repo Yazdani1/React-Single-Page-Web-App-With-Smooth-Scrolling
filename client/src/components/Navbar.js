@@ -62,7 +62,17 @@ const Navbar = () => {
             Testimonial
           </Link>
         </li>
-
+        <li className="nav-item">
+          <Link
+            to="subscription"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Subscription
+          </Link>
+        </li>
         <li className="nav-item">
           <Link
             to="feedback"
@@ -75,17 +85,7 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li className="nav-item">
-          <Link
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-          >
-            Contact
-          </Link>
-        </li>
+      
       </ul>
 
       {/* Normal way to do single page using id of the main container */}

@@ -33,7 +33,7 @@ const Video = () => {
             <Fade right>
               <div className="youtube-video">
                 <iframe
-                  width="500"
+                  
                   height="315"
                   src="https://www.youtube.com/embed/ABrjdyavqkI"
                   title="YouTube video player"
