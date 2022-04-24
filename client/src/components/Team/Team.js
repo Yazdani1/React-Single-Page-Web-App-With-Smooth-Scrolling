@@ -46,7 +46,7 @@ const Team = () => {
         "It is not every day that you come across a passionate and trustworthy financial advisor",
       name: "Bochum",
       position: "Nuxt js developer",
-      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: "https://images.pexels.com/photos/1808785/pexels-photo-1808785.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 5,
     },
     {
@@ -54,7 +54,7 @@ const Team = () => {
         "It is not every day that you come across a passionate and trustworthy financial advisor",
       name: "Bochum",
       position: "Nuxt js developer",
-      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: "https://images.pexels.com/photos/678783/pexels-photo-678783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 5,
     },
   ];
