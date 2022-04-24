@@ -26,89 +26,42 @@ const Contact = () => {
                 <form>
                   <div className="event-form">
                     <label for="exampleInputEmail1" className="form-label">
-                      Job Title
+                      Name
                     </label>
                     <input
                       type="text"
                       className="form-control"
                       maxLength="100"
+                      placeholder="Your name..."
+                    />
+                  </div>
+                  <div className="event-form">
+                    <label for="exampleInputEmail1" className="form-label">
+                      E-mail
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      maxLength="100"
+                      placeholder="Your e-mail..."
                     />
                   </div>
 
                   <div className="event-form">
                     <label for="exampleInputEmail1" className="form-label">
-                      Job types
+                      Your Message
                     </label>
-                    <select className="custom-select">
-                      <option value="Full-Time">Full-Time</option>
-                      <option value="Part-Time">Part-Time</option>
-                      <option value="For Students">For Students</option>
-                      <option value="Contract">Contract</option>
-                    </select>
+                    <textarea
+                      type="text"
+                      className="form-control"
+                      maxLength="100"
+                      rows="4"
+                      placeholder="Your message..."
+                    />
                   </div>
 
-                  {/* job address */}
-
-                  <div className="even-start-end-date">
-                    <div className="row">
-                      <div className="col-lg-4">
-                        <div className="event-form">
-                          <label
-                            for="exampleInputEmail1"
-                            className="form-label"
-                          >
-                            City
-                          </label>
-                          <input
-                            type="text"
-                            className="form-control"
-                            maxLength="100"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="col-lg-4">
-                        <div className="event-form">
-                          <label
-                            for="exampleInputEmail1"
-                            className="form-label"
-                          >
-                            Office Address
-                          </label>
-                          <input
-                            type="text"
-                            className="form-control"
-                            maxLength="100"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="col-lg-4">
-                        <div className="event-form">
-                          <label
-                            for="exampleInputEmail1"
-                            className="form-label"
-                          >
-                            Country
-                          </label>
-                          <input
-                            type="text"
-                            className="form-control"
-                            maxLength="100"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="form-group justify-content-center align-items-center">
-                    <button
-                      type="submit"
-                      name="btnSubmit"
-                      className="create-event-button"
-                    >
-                      Publish Job
-                    </button>
+                  <div class="submit-button">
+                    <p>Send</p>
                   </div>
                 </form>
               </div>
