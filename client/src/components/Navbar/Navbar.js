@@ -84,8 +84,6 @@ const Navbar = () => {
             Feedback
           </Link>
         </li>
-
-      
       </ul>
 
       {/* Normal way to do single page using id of the main container */}
@@ -97,6 +95,7 @@ const Navbar = () => {
             <li className="nav-item"><a href="#feedback">Feedback</a></li>
             <li className="nav-item"><a href="#testimonial">Testimonial</a></li>
           </ul> */}
+
     </nav>
   );
 };

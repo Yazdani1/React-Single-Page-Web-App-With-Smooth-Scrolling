@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Career from "./components/Career/Career";
@@ -11,11 +10,14 @@ import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
 import Subscription from "./components/subscription/Subscription";
+import NavbarMobile from "./components/Navbar/NavbarMobile";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
     <React.Fragment>
       <Navbar />
+      <NavbarMobile />
 
       <Home />
       <About />
@@ -23,13 +25,12 @@ const App = () => {
 
       <Career />
       <Video />
-      <Team/>
+      <Team />
       <Testimonial />
-      <Subscription/>
+      <Subscription />
       <Feedback />
       {/* <Contact/> */}
-      <Footer/>
-
+      <Footer />
     </React.Fragment>
   );
 };
