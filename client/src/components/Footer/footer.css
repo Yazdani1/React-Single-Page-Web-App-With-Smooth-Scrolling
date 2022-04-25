@@ -1,13 +1,16 @@
-.footer{
-    height: 300px;
-    background-color: black;
+.footer {
+  height: 300px;
+  background-color: black;
 }
-.footer-quicklink-section h6{
-
-    margin-top: 40px;
-    color: white;
+.footer-quicklink-section h6 {
+  margin-top: 40px;
+  color: white;
 }
 
-.footer-quicklink-section{
-    color: white;
+.footer-quicklink-section {
+  color: white;
+}
+
+.services {
+  color: white;
 }
