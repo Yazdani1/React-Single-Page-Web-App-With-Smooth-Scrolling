@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <h6>More Services</h6>
-            <div className="services">
+            <div className="services-itemss">
               <p>Home</p>
               <p>About</p>
               <p>Service</p>
@@ -24,6 +24,11 @@ const Footer = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <h6>Quick Links</h6>
+            <div className="services-itemss">
+              <p>Home</p>
+              <p>About</p>
+              <p>Service</p>
+            </div>
           </div>
         </div>
       </div>
