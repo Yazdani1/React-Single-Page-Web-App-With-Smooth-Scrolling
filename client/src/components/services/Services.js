@@ -3,6 +3,7 @@ import Flip from "react-reveal/Flip";
 import "./services.css";
 import Zoom from "react-reveal/Zoom";
 
+import { FcOk } from "react-icons/fc";
 const Services = () => {
   const serviceData = [
     {
@@ -47,7 +48,16 @@ const Services = () => {
     },
   ];
 
-  const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042','#001CCE', '#00C79F', '#FFBB24', '#FF1042'];
+  const colors = [
+    "#0088FE",
+    "#00C49F",
+    "#FFBB28",
+    "#FF8042",
+    "#001CCE",
+    "#00C79F",
+    "#FFBB24",
+    "#FF1042",
+  ];
 
   return (
     <div className="container service-section" id="service">
@@ -63,13 +73,36 @@ const Services = () => {
             <Zoom>
               <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                 <div className="card services">
-                  <span className="service-number" style={{ backgroundColor: colors[i] }}>
-                   <p> {item.servicenumber}</p>
-                    </span>
-                  <h6>{item.title}</h6>
-                  <p>{item.des}</p>
-                  <span className="view-details-button">View Details</span>
+                  <span
+                    className="service-number"
+                    style={{ backgroundColor: colors[i] }}
+                  >
+                    <p> {item.servicenumber}</p>
+                  </span>
+                  <div className="list-of-service">
+                    <p>
+                      <FcOk size={20} style={{ margin: "5px" }} />
+                      {item.title}
+                    </p>
+                    <span className="service-under-line"></span>
 
+                    <p>
+                      <FcOk size={20} style={{ margin: "5px" }} />
+                      {item.title}
+                    </p>
+                    <span className="service-under-line"></span>
+                    <p>
+                      <FcOk size={20} style={{ margin: "5px" }} />
+                      {item.title}
+                    </p>
+                    <span className="service-under-line"></span>
+                    <p>
+                      <FcOk size={20} style={{ margin: "5px" }} />
+                      {item.title}
+                    </p>
+                  </div>
+
+                  {/* <span className="view-details-button">View Details</span> */}
                 </div>
               </div>
             </Zoom>
