@@ -47,6 +47,8 @@ const Services = () => {
     },
   ];
 
+  const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042','#001CCE', '#00C79F', '#FFBB24', '#FF1042'];
+
   return (
     <div className="container service-section" id="service">
       <div className="services-title">
@@ -61,7 +63,9 @@ const Services = () => {
             <Zoom>
               <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                 <div className="card services">
-                  <span className="service-number">{item.servicenumber}</span>
+                  <span className="service-number" style={{ backgroundColor: colors[i] }}>
+                   <p> {item.servicenumber}</p>
+                    </span>
                   <h6>{item.title}</h6>
                   <p>{item.des}</p>
                   <span className="view-details-button">View Details</span>
