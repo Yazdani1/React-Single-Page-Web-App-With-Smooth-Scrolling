@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useState } from "react";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Career from "./components/Career/Career";
@@ -13,17 +13,25 @@ import Subscription from "./components/subscription/Subscription";
 import NavbarMobile from "./components/Navbar/NavbarMobile";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
+import ReactSwitch from "react-switch";
+
+export const ThemeContext = createContext(null);
 
 const App = () => {
-  return (
-    <React.Fragment>
-        <Navbar />
-        <NavbarMobile />
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
 
-        <Home />
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {/* <Navbar toggleTheme={toggleTheme} theme={theme}/> */}
+      <NavbarMobile />
+      <Home />
+      <div className="main-app" id={theme}>
         <About />
         <Services />
-
+        <Navbar />
         <Career />
         <Video />
         <Team />
@@ -33,8 +41,8 @@ const App = () => {
         <Footer />
 
         {/* <Contact/> */}
-
-    </React.Fragment>
+      </div>
+    </ThemeContext.Provider>
   );
 };
 

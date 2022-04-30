@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
+import ReactSwitch from "react-switch";
+import ThemeContext from "../../App";
 
 const Navbar = () => {
   //to change navcolro while scroll
   const [navColor, setNavColor] = useState(false);
+
+  //context api use
+
+  const [theme, toggleTheme] = useContext(ThemeContext);
 
   const changeNavcolor = () => {
     if (window.scrollY >= 100) {
@@ -96,6 +102,11 @@ const Navbar = () => {
           >
             Feedback
           </Link>
+        </li>
+        <li className="nav-item">
+          <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/>
+          {/* <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/> */}
+
         </li>
       </ul>
 
