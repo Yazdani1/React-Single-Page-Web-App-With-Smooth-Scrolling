@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonial.css";
 import Fade from "react-reveal/Fade";
-import Flip from 'react-reveal/Flip';
+import Flip from "react-reveal/Flip";
 const Testimonial = () => {
   const data = [
     {
@@ -54,27 +54,47 @@ const Testimonial = () => {
     },
   ];
 
+
+
   return (
     <div className="container testimonial-section" id="testimonial">
       <div className="testimonial">
         <Flip left>
           <h2>Testimonial</h2>
           <span className="line"></span>
-
         </Flip>
       </div>
       <div className="row">
         {data.map((item, index) => (
           <Fade right>
             <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
-              <div className="card content">
-                <img src={item.img} alt="image" />
-                <p>{item.content}</p>
-                <p>
-                  <span className="name">{item.name}</span>
-                </p>
-                <p>{item.position}</p>
-              </div>
+              {index === 0 ? (
+                <div
+                  className="card content"
+                  style={{ backgroundColor: "tomato", color: "white" }}
+                >
+                  <img src={item.img} alt="image" />
+                  <p>{item.content}</p>
+                  <p>
+                    <span
+                      className="name"
+                      style={{ color: "white" }}
+                    >
+                      {item.name}
+                    </span>
+                  </p>
+                  <p>{item.position}</p>
+                </div>
+              ) : (
+                <div className="card content">
+                  <img src={item.img} alt="image" />
+                  <p>{item.content}</p>
+                  <p>
+                    <span className="name">{item.name}</span>
+                  </p>
+                  <p>{item.position}</p>
+                </div>
+              )}
             </div>
           </Fade>
         ))}
