@@ -6,20 +6,27 @@
 }
 
 .navbar-main {
-  background-color: rgb(10, 11, 12);
+  background-color: rgba(208, 19, 164, 0.7);
   width: 100%;
   height: 70px;
   justify-content: right;
+  text-align: center;
   display: flex;
   position: sticky;
   align-items: center;
   top: 0;
   z-index: 1;
+
+}
+
+.navbar-main-bg {
+  background-color: tomato;
 }
 
 .navbar-main ul {
   margin-right: 10%;
   display: flex;
+
 }
 
 .navbar-main ul li {
@@ -29,6 +36,7 @@
   display: flex;
   color: white;
   cursor: pointer;
+  padding-top: 7px;
 }
 
 /* .navbar-main ul li:hover{
@@ -38,7 +46,6 @@
 .nav-item .active {
   border-bottom: 1px solid yellow;
   color: yellow;
-
 }
 .navbar-main li:hover {
   color: yellow;

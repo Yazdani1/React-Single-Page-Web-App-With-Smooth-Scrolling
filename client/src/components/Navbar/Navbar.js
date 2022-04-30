@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  //to change navcolro while scroll
+  const [navColor, setNavColor] = useState(false);
+
+  const changeNavcolor = () => {
+    if (window.scrollY >= 100) {
+      setNavColor(true);
+    } else {
+      setNavColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeNavcolor);
+
   return (
-    <nav className="navbar-main">
+    <nav className={navColor ? "navbar-main navbar-main-bg" : "navbar-main"}>
       <ul>
         <li className="nav-item">
           <Link to="home" spy={true} smooth={true} offset={-100} duration={100}>
@@ -95,7 +108,6 @@ const Navbar = () => {
             <li className="nav-item"><a href="#feedback">Feedback</a></li>
             <li className="nav-item"><a href="#testimonial">Testimonial</a></li>
           </ul> */}
-
     </nav>
   );
 };

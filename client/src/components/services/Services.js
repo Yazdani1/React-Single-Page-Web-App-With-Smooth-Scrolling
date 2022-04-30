@@ -71,7 +71,7 @@ const Services = () => {
         {serviceData.map((item, i) => (
           <>
             <Zoom>
-              <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div className="card services">
                   <span
                     className="service-number"

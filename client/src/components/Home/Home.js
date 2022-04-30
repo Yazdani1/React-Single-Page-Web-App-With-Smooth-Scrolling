@@ -6,8 +6,10 @@ import Flip from "react-reveal/Flip";
 const Home = () => {
   return (
     <div className="container-fluid home" id="home">
+   
       <Fade left>
         <div className="container home-content">
+
           <h1>24 Hours Service Center</h1>
 
           <h4>Worlds Leading Company</h4>
