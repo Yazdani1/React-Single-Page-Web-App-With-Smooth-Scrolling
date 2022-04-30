@@ -7,8 +7,19 @@
   color: black;
   padding: 10px;
 }
+
+#dark .services {
+  background-color: #38004c;
+  color: white;
+}
+
 .services-title h2 {
   text-align: center;
+}
+
+#dark .services-title h2 {
+  text-align: center;
+  color: white;
 }
 .view-details-button {
   border: 1px solid blue;
@@ -36,23 +47,23 @@
   margin: 0 auto;
   margin-top: -30px;
 }
-.service-number p{
+.service-number p {
   /* position: relative;
 float: left;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%); */
-text-align: center;
-vertical-align: middle;
-line-height: 50px; 
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
-.list-of-service p{
+.list-of-service p {
   text-align: center;
   padding-top: 2px;
 }
 
-.services:hover{
+.services:hover {
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
@@ -62,12 +73,19 @@ line-height: 50px;
   cursor: pointer;
 }
 
-.service-under-line{
+.service-under-line {
   display: block;
   width: 100%;
   height: 0.1px;
   margin-bottom: 10px;
   background-color: rgb(140, 50, 11);
+}
+#dark .service-under-line {
+  display: block;
+  width: 100%;
+  height: 0.1px;
+  margin-bottom: 10px;
+  background-color: rgb(200, 126, 95);
 }
 
 @media (max-width: 1000px) {

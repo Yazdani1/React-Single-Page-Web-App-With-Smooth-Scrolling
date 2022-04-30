@@ -16,17 +16,19 @@
   align-items: center;
   top: 0;
   z-index: 1;
-
 }
 
 .navbar-main-bg {
   background-color: tomato;
 }
+#dark .navbar-main-bg {
+  background-color: #38004c;
+  color: white;
+}
 
 .navbar-main ul {
   margin-right: 10%;
   display: flex;
-
 }
 
 .navbar-main ul li {
@@ -37,7 +39,7 @@
   color: white;
   cursor: pointer;
   padding-top: 7px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* .navbar-main ul li:hover{

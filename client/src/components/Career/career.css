@@ -2,6 +2,14 @@
     color: black;
 }
 
+
+#dark .career{
+    background-color: #38004c;
+    color: white;
+}
+
+
+
 .career-title{
     text-align: center;
 }
@@ -11,6 +19,13 @@
     padding: 15px;
     cursor: pointer;
 }
+
+#dark .post-card{
+    background-color: black;
+    color: white;
+}
+
+
 .collapse-option{
     display: flex;
     justify-content: space-between;
@@ -22,6 +37,10 @@
 .pagination-details{
     margin-top: 10px;
 }
+#dark .pagination-details{
+    background-color: rgb(157, 73, 73);
+    color: white;}
+
 
 
 @media (max-width: 1000px) {

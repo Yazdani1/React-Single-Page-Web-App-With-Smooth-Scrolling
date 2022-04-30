@@ -25,24 +25,26 @@ const App = () => {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      {/* <Navbar toggleTheme={toggleTheme} theme={theme}/> */}
-      <NavbarMobile />
+      <Navbar toggleTheme={toggleTheme} theme={theme} />
       <Home />
+      <NavbarMobile />
       <div className="main-app" id={theme}>
         <About />
         <Services />
-        <Navbar />
+
         <Career />
         <Video />
         <Team />
         <Testimonial />
-        <Subscription />
         <Feedback />
-        <Footer />
+     
 
         {/* <Contact/> */}
       </div>
+      <Subscription />
+      <Footer />
     </ThemeContext.Provider>
+    
   );
 };
 

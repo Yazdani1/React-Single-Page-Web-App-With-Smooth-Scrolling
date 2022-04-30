@@ -8,6 +8,16 @@
   height: 315px;
 }
 
+#dark .video-description{
+  background-color: black;
+  color: white;
+}
+
+/* #light .video-description{
+  background-color: rgb(211, 15, 15);
+  color: white;
+} */
+
 .youtube-video iframe{
   margin-top: 40px;
   width: 500px;
@@ -16,6 +26,11 @@
 .video-section {
   height: 600px;
   margin-top: 150px;
+}
+
+#dark .video-section {
+  background-color: #38004c;
+  color: white;
 }
 
 .video-demo-button {

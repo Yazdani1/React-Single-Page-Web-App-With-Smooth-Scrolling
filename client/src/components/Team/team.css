@@ -1,6 +1,15 @@
 .team-members {
   height: 1200px;
 }
+#dark .team-members {
+  color: white;
+}
+
+#dark .team-members-item {
+  background-color: #38004c;
+  color: white;
+}
+
 .team h3 {
   text-align: center;
 }
@@ -66,11 +75,16 @@
   background-color: rgb(16, 16, 15);
 }
 
-
+#dark .lineforteammembers {
+  display: block;
+  width: 170px;
+  height: 1px;
+  margin: 2px auto;
+  background-color: rgb(228, 228, 171);
+}
 
 @media (max-width: 1000px) {
   .team-members {
     height: auto;
   }
 }
-
