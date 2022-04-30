@@ -12,25 +12,28 @@ import Contact from "./components/Contact/Contact";
 import Subscription from "./components/subscription/Subscription";
 import NavbarMobile from "./components/Navbar/NavbarMobile";
 import Navbar from "./components/Navbar/Navbar";
+import "./App.css";
 
 const App = () => {
   return (
     <React.Fragment>
-      <Navbar />
-      <NavbarMobile />
+        <Navbar />
+        <NavbarMobile />
 
-      <Home />
-      <About />
-      <Services />
+        <Home />
+        <About />
+        <Services />
 
-      <Career />
-      <Video />
-      <Team />
-      <Testimonial />
-      <Subscription />
-      <Feedback />
-      {/* <Contact/> */}
-      <Footer />
+        <Career />
+        <Video />
+        <Team />
+        <Testimonial />
+        <Subscription />
+        <Feedback />
+        <Footer />
+
+        {/* <Contact/> */}
+
     </React.Fragment>
   );
 };
