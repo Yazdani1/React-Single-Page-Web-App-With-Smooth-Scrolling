@@ -54,8 +54,6 @@ const Testimonial = () => {
     },
   ];
 
-
-
   return (
     <div className="container testimonial-section" id="testimonial">
       <div className="testimonial">
@@ -66,9 +64,26 @@ const Testimonial = () => {
       </div>
       <div className="row">
         {data.map((item, index) => (
+          
           <Fade right>
             <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
-              { index === 0 ? (
+              <div
+                className={
+                  index === 0 ? "card content-with-marked" : "card content"
+                }
+                // style={{ backgroundColor: "brown", color: "white" }}
+              >
+                <img src={item.img} alt="image" />
+                <p>{item.content}</p>
+                <p>
+                  <span className="name" style={{ color: "orange" }}>
+                    {item.name}
+                  </span>
+                </p>
+                <p>{item.position}</p>
+              </div>
+
+              {/* { index === 0 ? (
                 <div
                   className="card content"
                   style={{ backgroundColor: "brown", color: "white" }}
@@ -86,7 +101,8 @@ const Testimonial = () => {
                   <p>{item.position}</p>
                 </div>
               ) : (
-                <div className="card content">
+
+                <div className={index ===2? "card content":"card content"}>
                   <img src={item.img} alt="image" />
                   <p>{item.content}</p>
                   <p>
@@ -94,7 +110,7 @@ const Testimonial = () => {
                   </p>
                   <p>{item.position}</p>
                 </div>
-              )}
+              )} */}
             </div>
           </Fade>
         ))}

@@ -43,6 +43,35 @@
   background-color: brown;
   color: white;
 }
+.content-with-marked{
+  padding: 10px;
+  color: white;
+  margin-top: 50px;
+  background-color: brown;
+
+}
+
+
+.content-with-marked:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+
+  cursor: pointer;
+  transition-duration: 1s;
+  background-color: brown;
+  color: white;
+}
+
+.content-with-marked img {
+  height: 80px;
+  width: 80px;
+  border-radius: 90px;
+  margin-top: -30px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
 
 .name {
   font-weight: 20px;
