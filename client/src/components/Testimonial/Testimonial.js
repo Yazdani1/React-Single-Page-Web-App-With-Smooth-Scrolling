@@ -68,10 +68,10 @@ const Testimonial = () => {
         {data.map((item, index) => (
           <Fade right>
             <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
-              {index === 0 ? (
+              { index === 0 ? (
                 <div
                   className="card content"
-                  style={{ backgroundColor: "tomato", color: "white" }}
+                  style={{ backgroundColor: "brown", color: "white" }}
                 >
                   <img src={item.img} alt="image" />
                   <p>{item.content}</p>
