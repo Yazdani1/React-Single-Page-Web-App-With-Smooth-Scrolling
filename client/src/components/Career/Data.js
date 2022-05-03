@@ -13,12 +13,15 @@ const Data = ({ title, des }) => {
 
   return (
     <div className="card post-card">
-      <div onClick={() => setShow(!show)} className="collapse-option">
+      <div
+        onClick={() => setShow(!show)}
+        className={show ? "collapse-option item-title" : "collapse-option"}
+      >
         <h6>{title}</h6>
 
         <p>{show ? <FcCollapse size={20} /> : <FcExpand size={20} />}</p>
       </div>
-      <div className="description">{show && <p>{des}</p>}</div>
+      <div className={show ? "description" : ""}>{show && <p>{des}</p>}</div>
     </div>
   );
 };
