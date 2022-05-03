@@ -5,11 +5,30 @@ import Flip from "react-reveal/Flip";
 import Pagination from "../pagination/Pagination";
 import Fade from "react-reveal/Fade";
 import { SyncOutlined } from "@ant-design/icons";
+import {
+  FcOk,
+  FcCollapse,
+  FcExpand,
+  FcNightPortrait,
+  FcApproval,
+} from "react-icons/fc";
 
 const Career = () => {
   const URL = "https://jsonplaceholder.typicode.com/posts";
 
   const [data, setData] = useState([]);
+
+
+
+   const [selected, setSelected] = useState(null);
+
+  const toggle = (i) => {
+    if (selected == i) {
+      return setSelected(null);
+    }
+
+    setSelected(i);
+  };
 
   //loading
   const [loading, setLoading] = useState(true);
@@ -58,6 +77,8 @@ const Career = () => {
     );
   }
 
+ 
+
   return (
     <div className="container career" id="career">
       <div className="career-title">
@@ -69,9 +90,32 @@ const Career = () => {
 
       <Fade left>
         <div className="career-main-content">
-          {currrentPagedata.map((item, index) => (
+          {currrentPagedata.map((item, i) => (
             <>
-              <Data key={item.id} title={item.title} des={item.body} />
+              <div className="card post-card">
+                <div
+                  onClick={() => toggle(i)}
+                  className={
+                    selected == i
+                      ? "collapse-option item-title"
+                      : "collapse-option"
+                  }
+                >
+                  <h6>{item.title}</h6>
+                  <p>
+                    {selected == i ? (
+                      <FcCollapse size={20} />
+                    ) : (
+                      <FcExpand size={20} />
+                    )}
+                  </p>
+                </div>
+                <div className={selected == i ? "description" : ""}>
+                  {selected == i && <p>{item.body}</p>}
+                </div>
+              </div>
+
+              {/* <Data index={index} key={item.id} title={item.title} des={item.body} /> */}
             </>
           ))}
         </div>
