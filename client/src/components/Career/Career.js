@@ -89,12 +89,9 @@ const Career = () => {
         <div className="career-main-content">
           {currrentPagedata.map((item, i) => (
             <>
-              <Data
-                key={item.id}
-                title={item.title}
-                des={item.body}
-              />
+              <Data key={item.id} {...item} />
 
+              {/* <Data key={item.id} title={item.title} des={item.body} /> */}
               {/* to open only one option at the time of collapse */}
               {/* <div className="card post-card">
                 <div

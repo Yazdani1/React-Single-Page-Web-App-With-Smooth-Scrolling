@@ -8,7 +8,7 @@ import {
   FcApproval,
 } from "react-icons/fc";
 
-const Data = ({ title, des }) => {
+const Data = ({ title, body }) => {
   //collapse and show each item features
 
   const [show, setShow] = useState(false);
@@ -22,7 +22,7 @@ const Data = ({ title, des }) => {
         <h6>{title}</h6>
         <p>{show ? <FcCollapse size={20} /> : <FcExpand size={20} />}</p>
       </div>
-      <div className={show ? "description" : ""}>{show && <p>{des}</p>}</div>
+      <div className={show ? "description" : ""}>{show && <p>{body}</p>}</div>
     </div>
   );
 };
