@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     padding: 15px;
-
+    height: 55px;
 }
 
 .item-title{
@@ -42,7 +42,6 @@
 .description{
     padding: 15px;
     height: auto;
-    color: black;
 }
 
 .career-main-content{

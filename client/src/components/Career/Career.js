@@ -18,10 +18,8 @@ const Career = () => {
 
   const [data, setData] = useState([]);
 
-
-
-   const [selected, setSelected] = useState(null);
-
+  //to add one option collapse at the time
+  const [selected, setSelected] = useState(null);
   const toggle = (i) => {
     if (selected == i) {
       return setSelected(null);
@@ -29,6 +27,7 @@ const Career = () => {
 
     setSelected(i);
   };
+  //end to add one option collapse at the time
 
   //loading
   const [loading, setLoading] = useState(true);
@@ -77,8 +76,6 @@ const Career = () => {
     );
   }
 
- 
-
   return (
     <div className="container career" id="career">
       <div className="career-title">
@@ -92,7 +89,14 @@ const Career = () => {
         <div className="career-main-content">
           {currrentPagedata.map((item, i) => (
             <>
-              <div className="card post-card">
+              <Data
+                key={item.id}
+                title={item.title}
+                des={item.body}
+              />
+
+              {/* to open only one option at the time of collapse */}
+              {/* <div className="card post-card">
                 <div
                   onClick={() => toggle(i)}
                   className={
@@ -113,9 +117,7 @@ const Career = () => {
                 <div className={selected == i ? "description" : ""}>
                   {selected == i && <p>{item.body}</p>}
                 </div>
-              </div>
-
-              {/* <Data index={index} key={item.id} title={item.title} des={item.body} /> */}
+              </div> */}
             </>
           ))}
         </div>
