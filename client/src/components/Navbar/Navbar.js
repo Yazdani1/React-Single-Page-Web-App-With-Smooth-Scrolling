@@ -100,7 +100,7 @@ const Navbar = ({toggleTheme,theme}) => {
         </li>
         <li className="nav-item">
 
-        <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/>
+        {/* <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/> */}
         </li>
       </ul>
 

@@ -9,13 +9,42 @@ import {
 } from "react-icons/ai";
 
 const Home = ({ toggleTheme, theme }) => {
+  const [show, setShow] = useState(false);
+
+  const showThemeOptions = () => {
+    setShow(!show);
+  };
+
   return (
     <div className="container-fluid home" id="home">
-      <div className="theme-chang">
-        <p onClick={() => toggleTheme()} className={theme}>
+      <div className="theme-chang "onClick={() => toggleTheme()}>
+        <p>
           <AiFillSetting size={40} />
         </p>
+        {/* <p style={{ top: 0 }}>
+          {theme === "light" ? "Dark Theme" : "Light Theme"}
+        </p> */}
       </div>
+
+      {/* <div className="theme-chang">
+        <p
+          onClick={() => {
+            toggleTheme();
+            showThemeOptions();
+          }}
+          className={theme}
+        >
+          <AiFillSetting size={40} />
+        </p>
+        <div style={{ width: "150px" }}>
+          {show ? (
+            <div className="card">
+              <p>Light Theme</p>
+              <p>Dark Theme</p>
+            </div>
+          ) : null}
+        </div>
+      </div> */}
 
       <Fade left>
         <div className="container home-content">

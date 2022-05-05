@@ -50,7 +50,7 @@
   justify-content: center;
   background-color: rgb(219, 142, 142);
   height: 50px;
-  width: 50px;
+  width: auto;
   right: 0;
   color: black;
   margin-top: 40px;
@@ -58,4 +58,5 @@
   vertical-align: middle;
   line-height: 50px;
   position:fixed;
+  color: white;
 }
