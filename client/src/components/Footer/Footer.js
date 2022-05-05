@@ -1,49 +1,40 @@
 import React from "react";
 import "./footer.css";
+import { RiFacebookBoxFill, RiInstagramFill } from "react-icons/ri";
+import { AiFillTwitterCircle,AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
   return (
     <React.Fragment>
-      <div className="footer">
-
-      </div>
-
-      {/* <div className="container-fluid footer">
-        <div className="row">
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <div className="footer-quicklink-section">
-              <h6>Quick Links</h6>
-              <p>Home</p>
-              <p>About</p>
-              <p>Service</p>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <h6>More Services</h6>
-            <div className="services-itemss">
-              <p>Home</p>
-              <p>About</p>
-              <p>Service</p>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <h6>Quick Links</h6>
-            <div className="services-itemss">
-              <p>Home</p>
-              <p>About</p>
-              <p>Service</p>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <h6>Quick Links</h6>
-            <div className="services-itemss">
-              <p>Home</p>
-              <p>About</p>
-              <p>Service</p>
+      <div className="container-fluid footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-4 col-lg-4">
+              <div className="footer-about-section">
+                <h6>About</h6>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters
+                </p>
+                <span className="social-icon">
+                  <p>
+                    <RiFacebookBoxFill size={30}/>
+                  </p>
+                  <p>
+                    <AiFillTwitterCircle size={30}/>
+                  </p>
+                  <p>
+                    <RiInstagramFill size={30}/>
+                  </p>
+                  <p><AiFillLinkedin size={30}/></p>
+                </span>
+              </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </React.Fragment>
   );
 };

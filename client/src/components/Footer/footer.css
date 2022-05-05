@@ -1,5 +1,18 @@
 .footer {
   height: 300px;
   margin: 0px;
-  background-color: brown;
+  background-color: #030749;
+}
+.footer-about-section {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: table-cell; 
+  vertical-align:middle; 
+}
+
+.social-icon {
+  color: orange;
+  display: flex;
+  cursor: pointer;
 }
