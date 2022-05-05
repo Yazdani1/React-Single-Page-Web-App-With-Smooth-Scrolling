@@ -1,50 +1,61 @@
-.home{
-    height: 100vh;
-    color: #fff;
-    height: 100vh;
-    background-color: #38004ca0;
-    position: relative;
+.home {
+  height: 100vh;
+  color: #fff;
+  height: 100vh;
+  background-color: #38004ca0;
+  position: relative;
 }
-
 
 .home:before {
-    content: '';
-    background: url('../../Images/about.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  content: "";
+  background: url("../../Images/about.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
-
 
 .home .home-content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    color: white;
-    padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  padding: 1rem;
 }
 
-.view-details-home-button{
-    background-color: rgb(247, 208, 16);
-    color: white;
-    text-align: center;
-    width: 50%;
-    padding: 10px;
-    border-radius: 30px;
-    cursor: pointer;
+.view-details-home-button {
+  background-color: rgb(247, 208, 16);
+  color: white;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
 }
-.view-details-home-button:hover{
-    background-color: white;
-    color: black;
-    text-align: center;
-    width: 50%;
-    padding: 10px;
-    border-radius: 30px;
-    cursor: pointer;
+.view-details-home-button:hover {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
+.theme-chang {
+  justify-content: center;
+  background-color: rgb(219, 142, 142);
+  height: 50px;
+  width: 50px;
+  right: 0;
+  color: black;
+  margin-top: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  position:fixed;
+}

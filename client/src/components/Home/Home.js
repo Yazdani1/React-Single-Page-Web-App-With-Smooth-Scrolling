@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillSetting,
+} from "react-icons/ai";
 
-const Home = () => {
+const Home = ({ toggleTheme, theme }) => {
   return (
     <div className="container-fluid home" id="home">
-   
+      <div className="theme-chang">
+        <p onClick={() => toggleTheme()} className={theme}>
+          <AiFillSetting size={40} />
+        </p>
+      </div>
+
       <Fade left>
         <div className="container home-content">
-
           <h1>24 Hours Service Center</h1>
 
           <h4>Worlds Leading Company</h4>
