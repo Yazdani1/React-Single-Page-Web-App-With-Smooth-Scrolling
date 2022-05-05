@@ -16,3 +16,32 @@
   display: flex;
   cursor: pointer;
 }
+
+h1 {
+  /* you can change these variables to control the border */
+  --border-color: purple;
+  --border-width: 5px;
+  --bottom-distance: 0px; /* you can increase this */
+  
+  color: #666;
+  display: inline; /* should be 'inline' for multiple line animation */
+  background-image: linear-gradient(var(--border-color), var(--border-color));
+  background-size: 0% var(--border-width);
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+.fromCenter {
+  background-position: 50% calc(100% - var(--bottom-distance));
+}
+
+.fromRight {
+  background-position: 100% calc(100% - var(--bottom-distance));
+}
+
+.fromLeft {
+  background-position: 0 calc(100% - var(--bottom-distance))
+}
+
+h1:hover {
+  background-size: 100% var(--border-width);
+}

@@ -52,6 +52,8 @@
   height: 50px;
   width: 50px;
   right: 0;
+  margin-right: 10px;
+  /* right: 10; */
   color: black;
   text-align: center;
   vertical-align: middle;
@@ -62,17 +64,16 @@
   margin-top: 250px;
 }
 
-.theme-icon{
+.theme-icon {
   animation: rotation infinite 3s linear;
-
 }
 
-@keyframes rotation{
-  from{
-    transform:rotate(0deg);
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
-  
-  to{
-    transform:rotate(360deg);
+
+  to {
+    transform: rotate(360deg);
   }
 }

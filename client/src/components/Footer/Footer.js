@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { RiFacebookBoxFill, RiInstagramFill } from "react-icons/ri";
-import { AiFillTwitterCircle,AiFillLinkedin } from "react-icons/ai";
+import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -20,17 +20,27 @@ const Footer = () => {
                 </p>
                 <span className="social-icon">
                   <p>
-                    <RiFacebookBoxFill size={30}/>
+                    <RiFacebookBoxFill size={30} />
                   </p>
                   <p>
-                    <AiFillTwitterCircle size={30}/>
+                    <AiFillTwitterCircle size={30} />
                   </p>
                   <p>
-                    <RiInstagramFill size={30}/>
+                    <RiInstagramFill size={30} />
                   </p>
-                  <p><AiFillLinkedin size={30}/></p>
+                  <p>
+                    <AiFillLinkedin size={30} />
+                  </p>
                 </span>
               </div>
+            </div>
+
+            <div className="col-xl-4 col-lg-4">
+              <h1 class="fromCenter">Expand from center</h1>
+              <br />
+              <h1 class="fromRight">Expand from right</h1>
+              <br />
+              <h1 class="fromLeft">Expand from left</h1>
             </div>
           </div>
         </div>
