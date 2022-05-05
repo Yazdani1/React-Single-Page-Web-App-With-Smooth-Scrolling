@@ -18,7 +18,7 @@ const Home = ({ toggleTheme, theme }) => {
   return (
     <div className="container-fluid home" id="home">
       <div className="theme-chang "onClick={() => toggleTheme()}>
-        <p>
+        <p className="theme-icon">
           <AiFillSetting size={40} />
         </p>
         {/* <p style={{ top: 0 }}>
