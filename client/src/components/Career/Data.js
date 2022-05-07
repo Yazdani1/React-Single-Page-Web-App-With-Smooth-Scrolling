@@ -14,7 +14,7 @@ const Data = ({ title, body }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="card post-card">
+    <div className={show? "card post-card-open":"card post-card"}>
       <div
         onClick={() => setShow(!show)}
         className={show ? "collapse-option item-title" : "collapse-option"}

@@ -1,66 +1,74 @@
-.career{
-    color: black;
+.career {
+  color: black;
 }
 
-
-#dark .career{
-    background-color: #38004c;
-    color: white;
+#dark .career {
+  background-color: #38004c;
+  color: white;
 }
 
-
-
-.career-title{
-    text-align: center;
+.career-title {
+  text-align: center;
 }
 
-.post-card{
-    margin-top: 10px;
-    /* padding: 15px; */
+.post-card {
+  margin-top: 10px;
+  /* padding: 15px; */
+  cursor: pointer;
+}
+
+.post-card-open {
+    border-left: 5px solid blueviolet;
+
+}
+
+.post-card:hover {
+  border-left: 5px solid blueviolet;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+#dark .post-card:hover {
+    border-left: 10px solid white;
     cursor: pointer;
-}
-
-#dark .post-card{
-    background-color: black;
-    color: white;
-}
-
-
-.collapse-option{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    height: 55px;
-}
-
-.item-title{
-   color: rgb(168, 185, 18);
-    
-}
-
-.description{
-    padding: 15px;
-    height: auto;
-}
-
-.career-main-content{
-    margin-top: 45px;
-}
-
-.pagination-details{
-    margin-top: 10px;
-}
-#dark .pagination-details{
-    background-color: rgb(168, 185, 18);
-    color: white;}
-
-
-
-@media (max-width: 1000px) {
-    .career {
-      height: auto;
-    }
-    
+    transition-duration: 1s;
   }
 
+#dark .post-card {
+  background-color: black;
+  color: white;
+}
 
+.collapse-option {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  height: 55px;
+}
+
+.item-title {
+  color: rgb(168, 185, 18);
+}
+
+.description {
+  padding: 15px;
+  height: auto;
+}
+
+.career-main-content {
+  margin-top: 45px;
+}
+
+.pagination-details {
+  margin-top: 10px;
+}
+#dark .pagination-details {
+  background-color: rgb(168, 185, 18);
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .career {
+    height: auto;
+  }
+}
