@@ -39,18 +39,16 @@ const Footer = () => {
               <div className="footer-Serivce">
                 <h4 style={{color: "white"}}>Services</h4 >
 
-                <div className="lifdsfdst-of-service">
-                  <p>New Product</p>
-                 
+                <div className="footer-item">
+                  <li> Product</li>
+                  <li>Delivery</li>
+                  <li>Ground</li>
+                  <li> Product</li>
+                  <li>Delivery</li>
+                  <li>Ground</li>
+
                 </div>
-                <div className="listdsd-of-service">
-                  <p>New Product</p>
-                 
-                </div>
-                <div className="listfdsfds-of-service">
-                  <p>New Product</p>
-                 
-                </div>
+               
               </div>
             </div>
           </div>
