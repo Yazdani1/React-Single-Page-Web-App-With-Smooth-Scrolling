@@ -48,8 +48,9 @@
 
 .theme-chang {
   justify-content: center;
-  background-color: rgb(219, 142, 142);
+  /* background-color: rgb(219, 142, 142); */
   height: 50px;
+  background-color: #fb5343;
   width: 50px;
   right: 0;
   margin-right: 10px;

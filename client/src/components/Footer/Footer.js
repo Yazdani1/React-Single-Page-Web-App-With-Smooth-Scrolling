@@ -36,11 +36,22 @@ const Footer = () => {
             </div>
 
             <div className="col-xl-4 col-lg-4">
-              <h1 class="fromCenter">Expand from center</h1>
-              <br />
-              <h1 class="fromRight">Expand from right</h1>
-              <br />
-              <h1 class="fromLeft">Expand from left</h1>
+              <div className="footer-Serivce">
+                <h4 style={{color: "white"}}>Services</h4 >
+
+                <div className="lifdsfdst-of-service">
+                  <p>New Product</p>
+                 
+                </div>
+                <div className="listdsd-of-service">
+                  <p>New Product</p>
+                 
+                </div>
+                <div className="listfdsfds-of-service">
+                  <p>New Product</p>
+                 
+                </div>
+              </div>
             </div>
           </div>
         </div>

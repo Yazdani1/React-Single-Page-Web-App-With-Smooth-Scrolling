@@ -11,16 +11,19 @@
   vertical-align:middle; 
 }
 
+
+
+
 .social-icon {
   color: orange;
   display: flex;
   cursor: pointer;
 }
 
-h1 {
+.footer-Serivce p {
   /* you can change these variables to control the border */
-  --border-color: purple;
-  --border-width: 5px;
+  --border-color: white;
+  --border-width: 2px;
   --bottom-distance: 0px; /* you can increase this */
   
   color: #666;
@@ -39,9 +42,15 @@ h1 {
 }
 
 .fromLeft {
-  background-position: 0 calc(100% - var(--bottom-distance))
+  background-position: 0 calc(100% - var(--bottom-distance));
+  color: white;
 }
 
-h1:hover {
+.footer-Serivce p{
+  color: white;
+}
+
+.footer-Serivce p:hover {
   background-size: 100% var(--border-width);
+  cursor: pointer;
 }

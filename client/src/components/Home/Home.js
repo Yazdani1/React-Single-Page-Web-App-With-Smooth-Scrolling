@@ -7,6 +7,7 @@ import {
   AiFillLinkedin,
   AiFillSetting,
 } from "react-icons/ai";
+import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 
 const Home = ({ toggleTheme, theme }) => {
   const [show, setShow] = useState(false);
@@ -17,10 +18,20 @@ const Home = ({ toggleTheme, theme }) => {
 
   return (
     <div className="container-fluid home" id="home">
-      <div className="theme-chang "onClick={() => toggleTheme()}>
-        <p className="theme-icon">
+      <div className="theme-chang " onClick={() => toggleTheme()}>
+        {theme === "light" ? (
+          <p className="theme-iconss">
+            <BsFillMoonStarsFill size={40} />
+          </p>
+        ) : (
+          <p className="theme-icon">
+            <BsFillSunFill size={40} />
+          </p>
+        )}
+
+        {/* <p className="theme-icon">
           <AiFillSetting size={40} />
-        </p>
+        </p> */}
         {/* <p style={{ top: 0 }}>
           {theme === "light" ? "Dark Theme" : "Light Theme"}
         </p> */}
