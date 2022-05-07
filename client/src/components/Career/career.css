@@ -55,6 +55,11 @@
   height: auto;
 }
 
+#dark .post-card-open{
+    background-color: black;
+}
+
+
 .career-main-content {
   margin-top: 45px;
 }
