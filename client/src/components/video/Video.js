@@ -2,11 +2,14 @@ import React from "react";
 import "./video.css";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
+import { FcMindMap, FcIcons8Cup, FcSlrBackSide } from "react-icons/fc";
+
+import { BsFillDice5Fill } from "react-icons/bs";
 
 const Video = () => {
   return (
     <React.Fragment>
-      <div className="card container video-section" id="video">
+      <div className=" container video-section" id="video">
         <div className="video-title">
           <Flip left>
             <h2>Video Demo</h2>
@@ -16,15 +19,59 @@ const Video = () => {
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <Fade left>
-              <div className="card video-description">
+              <div className="video-description">
                 <h3>Overall Work Process</h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters.
-                </p>
-                <span className="video-demo-button">Book Your Demo</span>
+
+                <div className="card card-design" style={{ marginTop: "10px" }}>
+                  <div className="video-item-list">
+                    <span className="video-details-icons">
+                      <p>
+                        <BsFillDice5Fill size={50} />
+                      </p>
+                    </span>
+                    <div>
+                      <h6>Perfect day out</h6>
+                      <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="card card-design" style={{ marginTop: "10px" }}>
+                  <div className="video-item-list">
+                    <span className="video-details-icons">
+                      <p>
+                        <FcMindMap size={50} />
+                      </p>
+                    </span>
+                    <div>
+                      <h6>Perfect day out</h6>
+                      <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="card card-design" style={{ marginTop: "10px" }}>
+                  <div className="video-item-list">
+                    <span className="video-details-icons">
+                      <p>
+                        <FcSlrBackSide size={50} />
+                      </p>
+                    </span>
+                    <div>
+                      <h6>Perfect day out</h6>
+                      <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* <span className="video-demo-button">Book Your Demo</span> */}
               </div>
             </Fade>
           </div>
@@ -33,8 +80,7 @@ const Video = () => {
             <Fade right>
               <div className="youtube-video">
                 <iframe
-                  
-                  height="315"
+                  height="420"
                   src="https://www.youtube.com/embed/ABrjdyavqkI"
                   title="YouTube video player"
                   frameborder="0"

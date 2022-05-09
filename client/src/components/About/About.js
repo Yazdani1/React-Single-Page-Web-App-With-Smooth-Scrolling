@@ -3,8 +3,9 @@ import "./about.css";
 import about from "../../Images/about.jpg";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
-import { FcApproval } from "react-icons/fc";
+import { FcMindMap, FcIcons8Cup, FcSlrBackSide } from "react-icons/fc";
 
+import { BsFillDice5Fill } from "react-icons/bs";
 const About = () => {
   return (
     <div className="container about-section" id="about">
@@ -29,15 +30,27 @@ const About = () => {
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English. Many
-                desktop publishing packages and web page editors now use Lorem
-                Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
+              
               </p>
 
-              <div className="card about-list">
+              <div className="card card-design" style={{ marginTop: "10px" }}>
+                <div className="video-item-list">
+                  <span className="video-details-icons">
+                    <p>
+                      <FcSlrBackSide size={50} />
+                    </p>
+                  </span>
+                  <div>
+                    <h6>Perfect day out</h6>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* <div className="card about-list">
                 <p>
                 
                   <FcApproval size={20} /> It is a long established fact that a
@@ -57,7 +70,7 @@ const About = () => {
                   <FcApproval size={20} />
                   It is a long established fact that a reader.
                 </p>
-              </div>
+              </div> */}
             </Fade>
           </div>
         </div>
