@@ -14,12 +14,12 @@
 .post-card {
   margin-top: 10px;
   /* padding: 15px; */
+
   cursor: pointer;
 }
 
 .post-card-open {
-    border-left: 5px solid blueviolet;
-
+  border-left: 5px solid blueviolet;
 }
 
 .post-card:hover {
@@ -29,10 +29,10 @@
 }
 
 #dark .post-card:hover {
-    border-left: 10px solid white;
-    cursor: pointer;
-    transition-duration: 1s;
-  }
+  border-left: 10px solid white;
+  cursor: pointer;
+  transition-duration: 1s;
+}
 
 #dark .post-card {
   background-color: black;
@@ -55,10 +55,9 @@
   height: auto;
 }
 
-#dark .post-card-open{
-    background-color: black;
+#dark .post-card-open {
+  background-color: black;
 }
-
 
 .career-main-content {
   margin-top: 45px;

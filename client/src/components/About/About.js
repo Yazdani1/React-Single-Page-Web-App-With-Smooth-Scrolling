@@ -30,7 +30,6 @@ const About = () => {
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
-              
               </p>
 
               <div className="card card-design" style={{ marginTop: "10px" }}>
@@ -38,6 +37,39 @@ const About = () => {
                   <span className="video-details-icons">
                     <p>
                       <FcSlrBackSide size={50} />
+                    </p>
+                  </span>
+                  <div>
+                    <h6>Perfect day out</h6>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="card card-design" style={{ marginTop: "10px" }}>
+                <div className="video-item-list">
+                  <span className="video-details-icons">
+                    <p>
+                      <BsFillDice5Fill size={50} />
+                    </p>
+                  </span>
+                  <div>
+                    <h6>Perfect day out</h6>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card card-design" style={{ marginTop: "10px" }}>
+                <div className="video-item-list">
+                  <span className="video-details-icons">
+                    <p>
+                      <FcMindMap size={50} />
                     </p>
                   </span>
                   <div>
