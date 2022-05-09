@@ -40,33 +40,28 @@ const Footer = () => {
                 <h4 style={{ color: "white" }}>Services</h4>
 
                 <div className="footer-item">
-                  <li> Product</li>
-                  <li>Delivery</li>
-                  <li>Ground</li>
-                  <li> Product</li>
-                  <li>Delivery</li>
-                  <li>Ground</li>
+                  <li> Product Sort</li>
+                  <li>Media Marketing</li>
+                  <li>Innovation</li>
+                  <li> Technology</li>
+                  <li>Environment</li>
                 </div>
               </div>
             </div>
 
             <div className="col-xl-4 col-lg-4">
               <div className="footer-Serivce">
-                <h4 style={{ color: "white" }}>Services</h4>
+                <h4 style={{ color: "white" }}>Customer Care</h4>
 
                 <div className="footer-item">
-                  <li> Product</li>
-                  <li>Delivery</li>
-                  <li>Ground</li>
-                  <li> Product</li>
-                  <li>Delivery</li>
-                  <li>Ground</li>
+                  <li>Log In</li>
+                  <li>My Account</li>
+                  <li>Wish List</li>
+                  <li> FAQ</li>
+                  <li>Contact Us</li>
                 </div>
               </div>
             </div>
-
-
-
           </div>
         </div>
       </div>
