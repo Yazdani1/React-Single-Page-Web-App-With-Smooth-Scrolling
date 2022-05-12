@@ -18,10 +18,8 @@
   padding: 20px;
 }
 
-#dark .about-details{
+#dark .video-item-list{
   text-align: left;
-  margin-top: 160px;
-  padding: 20px;
   background-color: #38004c;
   color: white;
 }
