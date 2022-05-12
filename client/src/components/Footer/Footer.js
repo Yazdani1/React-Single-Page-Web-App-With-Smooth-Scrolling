@@ -39,7 +39,7 @@ const Footer = () => {
 
             <div className="col-xl-4 col-lg-4">
               <div className="footer-Serivce">
-                <h4 style={{ color: "white" }}>Services</h4>
+                <h6 style={{ color: "white" }}>Services</h6>
 
                 <div className="footer-item">
                   <li> Product Sort</li>
@@ -54,7 +54,7 @@ const Footer = () => {
 
             <div className="col-xl-4 col-lg-4">
               <div className="footer-Serivce">
-                <h4 style={{ color: "white" }}>Customer Care</h4>
+                <h6 style={{ color: "white" }}>Customer Care</h6>
 
                 <div className="footer-item">
                   <li>Log In</li>
