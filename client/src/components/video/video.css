@@ -40,6 +40,8 @@
   color: purple;
   padding-right: 10px;
 }
+
+
 .card-design:after {
   display: block;
   content: "";
