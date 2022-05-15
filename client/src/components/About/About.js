@@ -32,7 +32,7 @@ const About = () => {
                 by the readable content of a page when looking at its layout.
               </p>
 
-              <div className="card card-design" style={{ marginTop: "10px" }}>
+              <div className="card-design" style={{ marginTop: "10px" }}>
                 <div className="video-item-list">
                   <span className="video-details-icons">
                     <p>
@@ -48,7 +48,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="card card-design" style={{ marginTop: "10px" }}>
+              <div className="card-design" style={{ marginTop: "10px" }}>
                 <div className="video-item-list">
                   <span className="video-details-icons">
                     <p>
@@ -65,7 +65,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="card card-design" style={{ marginTop: "10px" }}>
+              <div className="card-design" style={{ marginTop: "10px" }}>
                 <div className="video-item-list">
                   <span className="video-details-icons">
                     <p>

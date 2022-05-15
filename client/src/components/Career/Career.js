@@ -120,7 +120,7 @@ const Career = () => {
         </div>
       </Fade>
       <Fade right>
-        <div className="card pagination-details">
+        <div className="pagination-details">
           <Pagination pageCount={pageCount} handlePageClick={handlePageClick} />
         </div>
       </Fade>

@@ -3,7 +3,6 @@
 }
 
 .video-description {
- 
   margin-top: 40px;
   height: 315px;
 }
@@ -41,6 +40,11 @@
   padding-right: 10px;
 }
 
+.card-design {
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
 
 .card-design:after {
   display: block;
@@ -50,7 +54,7 @@
   transition: transform 250ms ease-in-out;
 }
 
-.card-design:hover{
+.card-design:hover {
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
