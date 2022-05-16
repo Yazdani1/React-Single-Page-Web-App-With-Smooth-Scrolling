@@ -50,7 +50,7 @@
   justify-content: center;
   /* background-color: rgb(219, 142, 142); */
   height: 50px;
-  background-color: #fb5343;
+  background-color: #CD5C5C;
   width: 50px;
   right: 0;
   margin-right: 10px;
@@ -63,6 +63,8 @@
   color: white;
   top: 150;
   margin-top: 250px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .theme-icon {
