@@ -24,6 +24,11 @@
   color: white;
 }
 
+#dark .about-details{
+  background-color: #38004c;
+  color: white;
+}
+
 #light .about-details{
   text-align: left;
   margin-top: 160px;
