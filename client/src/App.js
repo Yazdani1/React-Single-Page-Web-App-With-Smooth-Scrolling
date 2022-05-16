@@ -26,9 +26,13 @@ const App = () => {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <Navbar toggleTheme={toggleTheme} theme={theme} />
       <NavbarMobile />
-      <Home toggleTheme={toggleTheme} theme={theme}/>
-     
+      <Home toggleTheme={toggleTheme} theme={theme} />
+
       <div className="main-app" id={theme}>
+        {/* <Navbar toggleTheme={toggleTheme} theme={theme} />
+      <NavbarMobile />
+      <Home toggleTheme={toggleTheme} theme={theme}/> */}
+
         <About />
         <Services />
 
