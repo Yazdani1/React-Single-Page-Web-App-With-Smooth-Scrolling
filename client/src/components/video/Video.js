@@ -12,7 +12,7 @@ const Video = () => {
       <div className=" container video-section" id="video">
         <div className="video-title">
           <Flip left>
-            <h2>Video Demo</h2>
+            <h5>Video Demo</h5>
             <span className="line"></span>
           </Flip>
         </div>

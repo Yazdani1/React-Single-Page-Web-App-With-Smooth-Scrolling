@@ -64,7 +64,7 @@ const Team = () => {
       <div className="container team-members" id="teammemebrs">
         <div className="team">
           <Flip left>
-            <h3>Team Members</h3>
+            <h5>Team Members</h5>
             <span className="line"></span>
           </Flip>
         </div>

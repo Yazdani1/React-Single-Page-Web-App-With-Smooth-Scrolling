@@ -58,7 +58,7 @@ const Testimonial = () => {
     <div className="container testimonial-section" id="testimonial">
       <div className="testimonial">
         <Flip left>
-          <h2>Testimonial</h2>
+          <h5>Testimonial</h5>
           <span className="line"></span>
         </Flip>
       </div>
