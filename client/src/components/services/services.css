@@ -13,11 +13,11 @@
   color: white;
 }
 
-.services-title h2 {
+.services-title h5 {
   text-align: center;
 }
 
-#dark .services-title h2 {
+#dark .services-title h5 {
   text-align: center;
   color: white;
 }

@@ -98,7 +98,7 @@ const Feedback = () => {
     <div className="container feedbacksection" id="feedback">
       <div className="feedback-title">
         <Flip left>
-          <h2>Feedback</h2>
+          <h5>Feedback</h5>
           <span className="line"></span>
         </Flip>
       </div>

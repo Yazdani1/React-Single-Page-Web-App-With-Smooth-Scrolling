@@ -80,7 +80,7 @@ const Career = () => {
     <div className="container career" id="career">
       <div className="career-title">
         <Flip left>
-          <h2>Career</h2>
+          <h5>Career</h5>
           <span className="line"></span>
         </Flip>
       </div>

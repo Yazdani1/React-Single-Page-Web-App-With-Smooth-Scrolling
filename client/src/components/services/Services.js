@@ -63,7 +63,7 @@ const Services = () => {
     <div className="container service-section" id="service">
       <div className="services-title">
         <Flip left>
-          <h2>Services</h2>
+          <h5>Services</h5>
           <span className="line"></span>
         </Flip>
       </div>
