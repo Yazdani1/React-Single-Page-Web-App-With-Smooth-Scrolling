@@ -50,6 +50,20 @@
   border: 3px solid white;
 }
 
+.slick-prev:before {
+  color: red;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  color: red;
+  font-size: 30px;
+}
+.slick-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
 @media (max-width: 1000px) {
   .feedbacksection {
     height: auto;
