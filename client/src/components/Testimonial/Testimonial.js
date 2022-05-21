@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./testimonial.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
@@ -50,9 +50,67 @@ const Testimonial = () => {
       name: "Bochum",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      id: 5,
+      id: 6,
+    },
+    {
+      content:
+        "It is not every day that you come across a passionate and trustworthy financial advisor",
+      name: "Bochum",
+      position: "Nuxt js developer",
+      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      id: 7,
+    },
+    {
+      content:
+        "It is not every day that you come across a passionate and trustworthy financial advisor",
+      name: "Bochum",
+      position: "Nuxt js developer",
+      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      id: 8,
+    },
+    {
+      content:
+        "It is not every day that you come across a passionate and trustworthy financial advisor",
+      name: "Bochum",
+      position: "Nuxt js developer",
+      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      id: 9,
+    },
+    {
+      content:
+        "It is not every day that you come across a passionate and trustworthy financial advisor",
+      name: "Bochum",
+      position: "Nuxt js developer",
+      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      id: 10,
+    },
+    {
+      content:
+        "It is not every day that you come across a passionate and trustworthy financial advisor",
+      name: "Bochum",
+      position: "Nuxt js developer",
+      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      id: 11,
+    },
+    {
+      content:
+        "It is not every day that you come across a passionate and trustworthy financial advisor",
+      name: "Bochum",
+      position: "Nuxt js developer",
+      img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      id: 12,
     },
   ];
+
+  const [visible, setVisible] = useState(3);
+
+  const loadMore = () => {
+    setVisible((prev) => prev + 3);
+  };
+
+  const showLess = () => {
+    setVisible((prev) => prev - 3);
+  };
 
   return (
     <div className="container testimonial-section" id="testimonial">
@@ -63,8 +121,7 @@ const Testimonial = () => {
         </Flip>
       </div>
       <div className="row">
-        {data.map((item, index) => (
-          
+        {data.slice(0, visible).map((item, index) => (
           <Fade right>
             <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
               <div
@@ -114,6 +171,39 @@ const Testimonial = () => {
             </div>
           </Fade>
         ))}
+
+        {visible >= data.length ? null : (
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "20px",
+              background: "red",
+              color: "white",
+              padding: "10px",
+            }}
+            onClick={loadMore}
+          >
+            Load More
+          </div>
+        )}
+        {/*/////////////////////////////////////////////////////// */}
+        {/*                  to show less the data                 */}
+        {/*//////////////////////////////////////////////////////// */}
+
+        {/* {visible >= data.length ? (
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "20px",
+              background: "red",
+              color: "white",
+              padding: "10px",
+            }}
+            onClick={showLess}
+          >
+            Show Less
+          </div>
+        ) : null} */}
       </div>
     </div>
   );
