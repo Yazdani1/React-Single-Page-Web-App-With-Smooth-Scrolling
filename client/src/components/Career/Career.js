@@ -85,15 +85,15 @@ const Career = () => {
         </Flip>
       </div>
 
-      <Fade left>
-        <div className="career-main-content">
-          {currrentPagedata.map((item, i) => (
-            <>
+      <div className="career-main-content">
+        {currrentPagedata.map((item, i) => (
+          <>
+            <Fade left>
               <Data key={item.id} {...item} />
-
-              {/* <Data key={item.id} title={item.title} des={item.body} /> */}
-              {/* to open only one option at the time of collapse */}
-              {/* <div className="card post-card">
+            </Fade>
+            {/* <Data key={item.id} title={item.title} des={item.body} /> */}
+            {/* to open only one option at the time of collapse */}
+            {/* <div className="card post-card">
                 <div
                   onClick={() => toggle(i)}
                   className={
@@ -115,10 +115,10 @@ const Career = () => {
                   {selected == i && <p>{item.body}</p>}
                 </div>
               </div> */}
-            </>
-          ))}
-        </div>
-      </Fade>
+          </>
+        ))}
+      </div>
+
       <Fade right>
         <div className="pagination-details">
           <Pagination pageCount={pageCount} handlePageClick={handlePageClick} />
