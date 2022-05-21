@@ -103,13 +103,14 @@ const Testimonial = () => {
   ];
 
   const [visible, setVisible] = useState(3);
+  const [hide, setHide] = useState(3);
 
   const loadMore = () => {
     setVisible((prev) => prev + 3);
   };
 
   const showLess = () => {
-    setVisible((prev) => prev - 3);
+    setHide((prev) => prev - 3);
   };
 
   return (
@@ -177,9 +178,9 @@ const Testimonial = () => {
             style={{
               textAlign: "center",
               marginTop: "20px",
-              background: "red",
-              color: "white",
+              color: "orange",
               padding: "10px",
+              cursor:"pointer"
             }}
             onClick={loadMore}
           >
