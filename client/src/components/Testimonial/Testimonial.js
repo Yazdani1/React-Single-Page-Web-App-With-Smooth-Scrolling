@@ -102,15 +102,16 @@ const Testimonial = () => {
     },
   ];
 
-  const [visible, setVisible] = useState(3);
+  const [visible, setVisible] = useState(6);
   const [hide, setHide] = useState(3);
 
   const loadMore = () => {
     setVisible((prev) => prev + 3);
   };
 
-  const showLess = () => {
-    setHide((prev) => prev - 3);
+  const collapse = () => {
+    const firstthree = data.slice(0, 3);
+    setVisible((prev) => prev.length - firstthree);
   };
 
   return (
@@ -140,35 +141,6 @@ const Testimonial = () => {
                 </p>
                 <p>{item.position}</p>
               </div>
-
-              {/* { index === 0 ? (
-                <div
-                  className="card content"
-                  style={{ backgroundColor: "brown", color: "white" }}
-                >
-                  <img src={item.img} alt="image" />
-                  <p>{item.content}</p>
-                  <p>
-                    <span
-                      className="name"
-                      style={{ color: "white" }}
-                    >
-                      {item.name}
-                    </span>
-                  </p>
-                  <p>{item.position}</p>
-                </div>
-              ) : (
-
-                <div className={index ===2? "card content":"card content"}>
-                  <img src={item.img} alt="image" />
-                  <p>{item.content}</p>
-                  <p>
-                    <span className="name">{item.name}</span>
-                  </p>
-                  <p>{item.position}</p>
-                </div>
-              )} */}
             </div>
           </Fade>
         ))}
@@ -180,7 +152,7 @@ const Testimonial = () => {
               marginTop: "20px",
               color: "orange",
               padding: "10px",
-              cursor:"pointer"
+              cursor: "pointer",
             }}
             onClick={loadMore}
           >
@@ -199,10 +171,11 @@ const Testimonial = () => {
               background: "red",
               color: "white",
               padding: "10px",
+              cursor: "pointer",
             }}
-            onClick={showLess}
+            onClick={collapse}
           >
-            Show Less
+            Collapse
           </div>
         ) : null} */}
       </div>
