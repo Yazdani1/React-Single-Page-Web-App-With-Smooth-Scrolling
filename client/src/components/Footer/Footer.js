@@ -13,7 +13,7 @@ const Footer = () => {
             
             <div className="col-xl-4 col-lg-4">
               <div className="footer-about-section">
-                <h6>About</h6>
+                <h6 style={{ color: "white",marginTop:"20px" }}>About</h6>
                 <p>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
@@ -39,7 +39,7 @@ const Footer = () => {
 
             <div className="col-xl-4 col-lg-4">
               <div className="footer-Serivce">
-                <h6 style={{ color: "white" }}>Services</h6>
+                <h6 style={{ color: "white",marginTop:"20px" }}>Services</h6>
 
                 <div className="footer-item">
                   <li> Product Sort</li>
@@ -54,7 +54,7 @@ const Footer = () => {
 
             <div className="col-xl-4 col-lg-4">
               <div className="footer-Serivce">
-                <h6 style={{ color: "white" }}>Customer Care</h6>
+                <h6 style={{ color: "white",marginTop:"20px"  }}>Customer Care</h6>
 
                 <div className="footer-item">
                   <li>Log In</li>
