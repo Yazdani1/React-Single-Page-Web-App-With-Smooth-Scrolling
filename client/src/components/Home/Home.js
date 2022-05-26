@@ -12,12 +12,15 @@ import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 const Home = ({ toggleTheme, theme }) => {
   const [show, setShow] = useState(false);
 
+
   const showThemeOptions = () => {
     setShow(!show);
   };
 
   return (
     <div className="container-fluid home" id="home">
+
+      
       <div className="theme-chang " onClick={() => toggleTheme()}>
         {theme === "light" ? (
           <p className="theme-iconss">
@@ -73,6 +76,8 @@ const Home = ({ toggleTheme, theme }) => {
           <span className="view-details-home-button">View Details</span>
         </div>
       </Fade>
+
+     
     </div>
   );
 };

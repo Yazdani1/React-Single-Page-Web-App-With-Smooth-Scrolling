@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Flip from "react-reveal/Flip";
 import "./services.css";
 import Zoom from "react-reveal/Zoom";
@@ -59,6 +59,7 @@ const Services = () => {
     "#FF1042",
   ];
 
+
   return (
     <div className="container service-section" id="service">
       <div className="services-title">
@@ -106,6 +107,7 @@ const Services = () => {
                 </div>
               </div>
             </Zoom>
+          
           </>
         ))}
       </div>
