@@ -69,6 +69,16 @@
 
 }
 
+
+@media (max-width: 1000px) {
+  .theme-chang {
+    background-color: #9dd60b;
+
+  }
+}
+
+
+
 .theme-icon {
   animation: rotation infinite 3s linear;
 }
