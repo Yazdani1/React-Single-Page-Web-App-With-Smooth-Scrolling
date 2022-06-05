@@ -33,7 +33,6 @@
   margin-top: 150px;
 }
 
-
 @media (max-width: 1000px) {
   .video-section {
     height: auto;
@@ -91,5 +90,11 @@
   }
   .youtube-video iframe {
     width: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .youtube-video {
+    display: none;
   }
 }
