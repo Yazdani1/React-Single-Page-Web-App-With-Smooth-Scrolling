@@ -2,7 +2,7 @@ import React from "react";
 import "./video.css";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
-import { FcMindMap, FcIcons8Cup, FcSlrBackSide } from "react-icons/fc";
+import { FcMindMap, FcSlrBackSide } from "react-icons/fc";
 
 import { BsFillDice5Fill } from "react-icons/bs";
 
