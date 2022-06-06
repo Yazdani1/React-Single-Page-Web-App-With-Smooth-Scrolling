@@ -71,7 +71,6 @@ const Video = () => {
                   </div>
                 </div>
 
-                {/* <span className="video-demo-button">Book Your Demo</span> */}
               </div>
             </Fade>
           </div>

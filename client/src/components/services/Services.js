@@ -102,7 +102,6 @@ const Services = () => {
                     </p>
                   </div>
 
-                  {/* <span className="view-details-button">View Details</span> */}
                 </div>
               </div>
             </Zoom>
