@@ -8,7 +8,6 @@ import Services from "./components/services/Services";
 import Video from "./components/video/Video";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
-import Contact from "./components/Contact/Contact";
 import Subscription from "./components/subscription/Subscription";
 import NavbarMobile from "./components/Navbar/NavbarMobile";
 import Navbar from "./components/Navbar/Navbar";
@@ -42,7 +41,6 @@ const App = () => {
         <Testimonial />
         <Feedback />
 
-        {/* <Contact/> */}
       </div>
       <Subscription />
       <Footer />
