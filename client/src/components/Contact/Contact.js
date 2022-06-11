@@ -7,16 +7,13 @@ const Contact = () => {
   return (
     <React.Fragment>
       <div className="container-fluid contact-section" id="contact">
-        <div className="container">
-          {/* <div className="contact-form-title">
-            <Flip left>
-              <h6>Contact Form</h6>
-              <span className="line"></span>
-            </Flip>
-          </div> */}
-
           <div className="row">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+              <div style={{height:"70vh",background:"red"}}>
+
+              </div>
+            </div>
+            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8">
               <div className="card event-form-design">
                 <Flip left>
                   <div className="text-center">
@@ -68,7 +65,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
     </React.Fragment>
   );
 };

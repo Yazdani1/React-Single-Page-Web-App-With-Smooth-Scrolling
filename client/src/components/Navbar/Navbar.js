@@ -98,6 +98,21 @@ const Navbar = ({toggleTheme,theme}) => {
             Feedback
           </Link>
         </li>
+
+        <li className="nav-item">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Contact
+          </Link>
+        </li>
+
+
+        
         <li className="nav-item">
 
         {/* <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/> */}
