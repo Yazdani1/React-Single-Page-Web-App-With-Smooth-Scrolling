@@ -13,6 +13,7 @@ import NavbarMobile from "./components/Navbar/NavbarMobile";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import ReactSwitch from "react-switch";
+import Contact from "./components/Contact/Contact";
 export const ThemeContext = createContext(null);
 
 const App = () => {
@@ -43,6 +44,7 @@ const App = () => {
 
       </div>
       <Subscription />
+      <Contact/>
       <Footer />
     </ThemeContext.Provider>
   );
