@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
+import Typical from "react-typical";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import {
@@ -12,15 +13,12 @@ import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 const Home = ({ toggleTheme, theme }) => {
   const [show, setShow] = useState(false);
 
-
   const showThemeOptions = () => {
     setShow(!show);
   };
 
   return (
     <div className="container-fluid home" id="home">
-
-      
       <div className="theme-chang " onClick={() => toggleTheme()}>
         {theme === "light" ? (
           <p className="theme-iconss">
@@ -62,10 +60,25 @@ const Home = ({ toggleTheme, theme }) => {
 
       <Fade left>
         <div className="container home-content">
-          <h1>24 Hours Service Center</h1>
+        
+          <h1>
+            24 Hours Service Center
+            <Typical
+            steps={["We provide service for", 1000,
+             
+            "Web Development", 500,
+            "Mobile App Development", 500,
+            "UI/UX Design", 500,
+            "Product Marketing", 500
+          ]
+          }
+            loop={Infinity}
+            wrapper="h1"
+          />
+            </h1>
 
           <h4>Worlds Leading Company</h4>
-          <h4>Doesn't come with instructions</h4>
+          <h6>Doesn't come with instructions</h6>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
@@ -76,8 +89,6 @@ const Home = ({ toggleTheme, theme }) => {
           <span className="view-details-home-button">View Details</span>
         </div>
       </Fade>
-
-     
     </div>
   );
 };
