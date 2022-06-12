@@ -60,23 +60,21 @@ const Home = ({ toggleTheme, theme }) => {
 
       <Fade left>
         <div className="container home-content">
-        
-          <h1>
-            24 Hours Service Center
-            <Typical
-            steps={["We provide service for", 1000,
-             
-            "Web Development", 500,
-            "Mobile App Development", 500,
-            "UI/UX Design", 500,
-            "Product Marketing", 500
-          ]
-          }
+          <h1>We provide service for</h1>
+          <Typical
+            steps={[
+              "Web Development",
+              9000,
+              "Mobile App Development",
+              9000,
+              "UI/UX Design",
+              9000,
+              "Product Marketing",
+              9000,
+            ]}
             loop={Infinity}
             wrapper="h1"
           />
-            </h1>
-
           <h4>Worlds Leading Company</h4>
           <h6>Doesn't come with instructions</h6>
           <p>
