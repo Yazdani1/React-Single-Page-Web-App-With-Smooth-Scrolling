@@ -60,18 +60,17 @@ const Home = ({ toggleTheme, theme }) => {
 
       <Fade left>
         <div className="container home-content">
-          <h1></h1>
           <Typical
             steps={[
             
               "Web Development",
-              1000,
+              4000,
               "Mobile App Development",
-              1000,
+              3000,
               "UI/UX Design",
-              1000,
+              3000,
               "Product Marketing",
-              1000,
+              3000,
             ]}
             loop={Infinity}
             wrapper="h4"
