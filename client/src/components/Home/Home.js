@@ -71,6 +71,11 @@ const Home = ({ toggleTheme, theme }) => {
               3000,
               "Product Marketing",
               3000,
+              "Digital Marketing",
+              3000,
+              "Customer Service",
+              3000,
+
             ]}
             loop={Infinity}
             wrapper="h4"
