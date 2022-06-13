@@ -62,7 +62,6 @@ const Home = ({ toggleTheme, theme }) => {
         <div className="container home-content">
           <Typical
             steps={[
-            
               "Web Development",
               4000,
               "Mobile App Development",
@@ -75,13 +74,12 @@ const Home = ({ toggleTheme, theme }) => {
               3000,
               "Customer Service",
               3000,
-
             ]}
             loop={Infinity}
             wrapper="h4"
           />
           <h4>Worlds Leading Company</h4>
-          <h6>Doesn't come with instructions</h6>
+          {/* <h6>Doesn't come with instructions</h6> */}
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
