@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="container-fluid contact-section" id="contact">
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-            <div style={{ height: "70vh", background: "red" }}></div>
+            <div style={{ height: "70vh", background: "black", borderRadius:"20px" }}></div>
           </div>
           <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8">
             <div className="card event-form-design">
