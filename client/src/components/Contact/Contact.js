@@ -1,16 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 const Contact = () => {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
+
   return (
     <React.Fragment>
       <div className="container-fluid contact-section" id="contact">
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-            <div style={{ height: "70vh", background: "black", borderRadius:"20px" }}></div>
+            <div
+              style={{
+                height: "70vh",
+                background: "black",
+                borderRadius: "20px",
+              }}
+            ></div>
           </div>
           <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8">
             <div className="card event-form-design">
