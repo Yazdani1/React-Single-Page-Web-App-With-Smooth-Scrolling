@@ -49,6 +49,8 @@ const Contact = () => {
                   </label>
                   <input
                     type="text"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     className="form-control"
                     maxLength="100"
                     placeholder="Your e-mail..."
@@ -61,6 +63,8 @@ const Contact = () => {
                   </label>
                   <textarea
                     type="text"
+                    value={message}
+                    onChange={(e)=>setMessage(e.target.value)}
                     className="form-control"
                     maxLength="100"
                     rows="4"
