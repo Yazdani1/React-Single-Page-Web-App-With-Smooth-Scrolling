@@ -112,8 +112,7 @@
 
 
 
-.image-class::before {
-  content: "";
+.image-class {
   background: url("https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center/cover;
   height: 100%;
   width: 100%;
