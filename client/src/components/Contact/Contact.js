@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { RiSendPlaneFill } from "react-icons/ri";
 import { ToastContainer, toast } from "react-toastify";
-import "../../../node_modules/react-toastify/dist/ReactToastify.css"
+import "../../../node_modules/react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [name, setName] = useState();
@@ -77,7 +77,6 @@ const Contact = () => {
                       onChange={(e) => setName(e.target.value)}
                       className="form-control"
                       maxLength="100"
-                      placeholder="Your name..."
                     />
                   </div>
                   <div className="contact-form">
@@ -90,7 +89,6 @@ const Contact = () => {
                       onChange={(e) => setEmail(e.target.value)}
                       className="form-control"
                       maxLength="100"
-                      placeholder="Your e-mail..."
                     />
                   </div>
                   <div className="contact-form">
@@ -120,10 +118,10 @@ const Contact = () => {
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                       className="form-control"
-                      maxLength="100"
+                      maxLength="500"
                       rows="4"
-                      placeholder="Your message..."
                     />
+                    <p> {message && message.length}/500 </p>
                   </div>
 
                   <div onClick={sendEmail} class="submit-button">

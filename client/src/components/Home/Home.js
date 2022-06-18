@@ -8,6 +8,9 @@ import {
   AiFillSetting,
 } from "react-icons/ai";
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
+import Typewriter from "typewriter-effect";
+
+// "fs": "^0.0.1-security",
 
 const Home = ({ toggleTheme, theme }) => {
   const [show, setShow] = useState(false);
@@ -59,7 +62,26 @@ const Home = ({ toggleTheme, theme }) => {
 
       <Fade left>
         <div className="container home-content">
-          <Typical
+          <h1>
+
+          <Typewriter
+            options={{
+              strings: [
+                "Web Development", 
+                "Mobile App Development",
+                "UI/UX Design",
+                "Product Marketing",
+                "Digital Marketing",
+                "Customer Service",
+              ],
+              autoStart: true,
+              loop: true,
+              delay:10
+            }}
+          />
+          </h1>
+
+          {/* <Typical
             steps={[
               "Web Development",
               4000,
@@ -75,9 +97,9 @@ const Home = ({ toggleTheme, theme }) => {
               3000,
             ]}
             loop={Infinity}
-            wrapper="h4"
-          />
-          <h4>Worlds Leading Company</h4>
+            wrapper="h1"
+          /> */}
+          {/* <h4>Worlds Leading Company</h4> */}
           {/* <h6>Doesn't come with instructions</h6> */}
           <p>
             It is a long established fact that a reader will be distracted by
