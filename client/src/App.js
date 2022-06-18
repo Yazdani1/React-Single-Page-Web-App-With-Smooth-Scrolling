@@ -41,10 +41,10 @@ const App = () => {
         <Team />
         <Testimonial />
         <Feedback />
+        <Contact/>
 
       </div>
       <Subscription />
-      <Contact/>
       <Footer />
     </ThemeContext.Provider>
   );

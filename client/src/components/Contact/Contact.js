@@ -11,9 +11,9 @@ const Contact = () => {
 
   return (
     <React.Fragment>
-      <div className="container-fluid contact-section" id="contact">
+      <div className="container contact-section" id="contact">
         <div className="row">
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
               <div className="image-class">
                
               </div>
@@ -54,6 +54,20 @@ const Contact = () => {
                     maxLength="100"
                     placeholder="Your e-mail..."
                   />
+                </div>
+                <div className="event-form">
+                  <label for="exampleInputEmail1" className="form-label">
+                    Job types
+                  </label>
+                  <select
+                    className="custom-select"
+                 
+                  >
+                    <option value="Full-Time">Full-Time</option>
+                    <option value="Part-Time">Part-Time</option>
+                    <option value="For Students">For Students</option>
+                    <option value="Contract">Contract</option>
+                  </select>
                 </div>
 
                 <div className="event-form">

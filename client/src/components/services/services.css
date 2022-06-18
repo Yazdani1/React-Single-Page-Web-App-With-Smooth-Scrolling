@@ -6,6 +6,10 @@
   margin-top: 100px;
   color: black;
   padding: 10px;
+
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
 }
 
 #dark .services {
@@ -70,6 +74,8 @@ transform: translate(-50%, -50%); */
 
   transition-duration: 1s;
   cursor: pointer;
+
+  border-left: 3px solid purple;
 }
 
 .service-under-line {

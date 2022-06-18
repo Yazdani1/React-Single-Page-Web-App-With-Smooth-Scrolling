@@ -72,7 +72,7 @@ const Services = () => {
           <>
             <Zoom>
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="card services">
+                <div className="services">
                   <span
                     className="service-number"
                     style={{ backgroundColor: colors[i] }}
