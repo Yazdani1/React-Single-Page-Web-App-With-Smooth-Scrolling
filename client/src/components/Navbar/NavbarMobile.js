@@ -94,6 +94,7 @@ const NavbarMobile = () => {
                 Subscription
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 to="feedback"
@@ -103,6 +104,18 @@ const NavbarMobile = () => {
                 duration={100}
               >
                 Feedback
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                Contact
               </Link>
             </li>
           </ul>
