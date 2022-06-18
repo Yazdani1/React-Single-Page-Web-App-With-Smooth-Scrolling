@@ -33,8 +33,8 @@ const About = () => {
               </p>
 
               <div className="card-design" style={{ marginTop: "10px" }}>
-                <div className="video-item-list">
-                  <span className="video-details-icons">
+                <div className="about-item-list">
+                  <span className="about-details-icons">
                     <p>
                       <FcSlrBackSide size={50} />
                     </p>
@@ -49,8 +49,8 @@ const About = () => {
                 </div>
               </div>
               <div className="card-design" style={{ marginTop: "10px" }}>
-                <div className="video-item-list">
-                  <span className="video-details-icons">
+                <div className="about-item-list">
+                  <span className="about-details-icons">
                     <p>
                       <BsFillDice5Fill size={50} />
                     </p>
@@ -66,8 +66,8 @@ const About = () => {
               </div>
 
               <div className="card-design" style={{ marginTop: "10px" }}>
-                <div className="video-item-list">
-                  <span className="video-details-icons">
+                <div className="about-item-list">
+                  <span className="about-details-icons">
                     <p>
                       <FcMindMap size={50} />
                     </p>

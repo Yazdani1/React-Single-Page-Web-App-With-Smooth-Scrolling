@@ -17,11 +17,26 @@
   margin-top: 160px;
   padding: 20px;
 }
+.about-item-list{
+  display: flex;
+  padding: 10px;
+}
 
-#dark .video-item-list{
+#dark .about-item-list{
   text-align: left;
   background-color: #38004c;
   color: white;
+}
+
+#dark .card-design{
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.about-details-icons{
+  color: purple;
+  padding-right: 10px;
 }
 
 #dark .about-details{

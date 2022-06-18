@@ -14,7 +14,6 @@
 }
 
 #dark .video-description {
-  background-color: black;
   color: white;
 }
 
@@ -47,6 +46,13 @@
   display: flex;
   padding: 10px;
 }
+
+#dark .video-item-list{
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
 .video-details-icons {
   color: purple;
   padding-right: 10px;

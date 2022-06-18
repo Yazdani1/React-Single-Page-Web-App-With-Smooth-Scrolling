@@ -47,8 +47,11 @@
 }
 
 #dark .post-card {
-  background-color: black;
   color: white;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
 .collapse-option {
@@ -68,7 +71,11 @@
 }
 
 #dark .post-card-open {
-  background-color: black;
+  /* background-color: black; */
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
 .career-main-content {
@@ -85,6 +92,10 @@
 #dark .pagination-details {
   background-color: rgb(126, 90, 23);
   color: white;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
 @media (max-width: 1000px) {

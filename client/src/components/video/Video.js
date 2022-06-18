@@ -38,7 +38,7 @@ const Video = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card-design" style={{ marginTop: "10px" }}>
+                <div className="card-designs" style={{ marginTop: "10px" }}>
                   <div className="video-item-list">
                     <span className="video-details-icons">
                       <p>
@@ -54,7 +54,7 @@ const Video = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card-design" style={{ marginTop: "10px" }}>
+                <div className="card-designs" style={{ marginTop: "10px" }}>
                   <div className="video-item-list">
                     <span className="video-details-icons">
                       <p>
