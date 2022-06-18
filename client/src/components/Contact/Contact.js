@@ -3,6 +3,8 @@ import "./contact.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { RiSendPlaneFill } from "react-icons/ri";
+import { ToastContainer, toast } from "react-toastify";
+import "../../../node_modules/react-toastify/dist/ReactToastify.css"
 
 const Contact = () => {
   const [name, setName] = useState();
@@ -27,8 +29,14 @@ const Contact = () => {
       .then((res) => res.json())
       .then((result) => {
         if (result.error) {
-          console.log(result.error)
+          toast.error(result.error, {
+            position: toast.POSITION.TOP_RIGHT,
+          });
+          console.log(result.error);
         } else {
+          toast.success("Post Created Successfully! ", {
+            position: toast.POSITION.TOP_RIGHT,
+          });
           setName("");
           setEmail("");
           setMessage("");
@@ -129,6 +137,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer autoClose={8000} />
     </React.Fragment>
   );
 };
