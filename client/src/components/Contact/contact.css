@@ -1,4 +1,3 @@
-
 .contact-section {
   height: 70vh;
   color: black;
@@ -8,28 +7,15 @@
   margin-top: 40px;
 }
 
-
 #dark .contact-section {
   background-color: #38004c;
   color: white;
-
-}
-
-
-
-
-.contact-form-title h6 {
-  color: black;
-  text-align: center;
 }
 
 
 /* for form */
 
-.create-event-container {
-  margin-top: 10px;
-}
-.event-form-design {
+.contact-form-design {
   padding: 30px;
   /* margin-top: 50px; */
   box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
@@ -38,24 +24,27 @@
 }
 
 /* To show in dark mode */
-#dark .event-form-design {
-  /* background-color: #38004c; */
+#dark .contact-form-design {
   color: white;
-
-
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
-
-
-
-.event-form input {
+.contact-form input {
   height: 50px;
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 0px;
+}
+
+#dark .contact-form input {
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border-color: rgb(4, 125, 28);
+  background-color: #38004c;
 }
 
 .custom-select {
@@ -66,37 +55,15 @@
   margin-top: 0px;
 }
 
-.ql-editor {
-  /* min-height: 100px !important;
-    max-height: 160px; */
-  overflow: hidden;
-}
-
-.even-start-end-date {
-  /* display: flex; */
-  width: 100%;
-}
-
-/* event date picker design */
-
-.datepicker-design {
-  height: 40px;
-}
-
-.event-form-designddd {
-  line-height: 10px;
-}
-
-.create-event-button {
-  background-color: black;
+#dark .custom-select{
+  border-color: rgb(4, 125, 28);
+  background-color: #38004c;
   color: white;
-  padding: 10px;
-  border-radius: 20px;
-  width: 30%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin-top: 20px !important;
+}
+
+#dark .contact-form textarea{
+  border-color: rgb(4, 125, 28);
+  background-color: #38004c;
 }
 
 .submit-button p {
