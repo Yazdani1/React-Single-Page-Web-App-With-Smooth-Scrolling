@@ -26,7 +26,9 @@ const Contact = () => {
     })
       .then((res) => res.json())
       .then((result) => {
-        if (result) {
+        if (result.error) {
+          console.log(result.error)
+        } else {
           setName("");
           setEmail("");
           setMessage("");

@@ -18,7 +18,6 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
 //to send email
 const transporter = nodemailer.createTransport(
   sendgridTransport({
@@ -29,22 +28,36 @@ const transporter = nodemailer.createTransport(
 );
 
 app.post("/sendemail", (req, res) => {
-
   const { name, email, servicetype, message } = req.body;
 
-//   const sendemail = new SendEmail({
-//     name,
-//     email,
-//     servicetype,
-//     message,
-//   });
+  if (!name) {
+    return res.status(400).json({ error: "Please add your name" });
+  }
 
-//   sendemail.save().then((sendEmailData) => {
+  if (!email) {
+    return res.status(400).json({ error: "Please add your e-mail" });
+  }
 
-//     res.json({ sendEmailData });
+  if (!servicetype) {
+    return res.status(400).json({ error: "Please add what service you need" });
+  }
 
-//   });
+  if (!message) {
+    return res.status(400).json({ error: "Please add your message" });
+  }
 
+  //   const sendemail = new SendEmail({
+  //     name,
+  //     email,
+  //     servicetype,
+  //     message,
+  //   });
+
+  //   sendemail.save().then((sendEmailData) => {
+
+  //     res.json({ sendEmailData });
+
+  //   });
 
   transporter.sendMail({
     to: "yaz4noor@gmail.com",
@@ -65,8 +78,7 @@ app.post("/sendemail", (req, res) => {
         </h1>`,
   });
 
-  res.json({name})
-
+  res.json({ name });
 });
 
 app.listen(PORT, (req, res) => {
