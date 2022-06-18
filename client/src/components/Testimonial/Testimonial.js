@@ -128,7 +128,7 @@ const Testimonial = () => {
             <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
               <div
                 className={
-                  index === 0 ? "card content-with-marked" : "card content"
+                  index === 0 ? "content-with-marked" : "content"
                 }
                 // style={{ backgroundColor: "brown", color: "white" }}
               >

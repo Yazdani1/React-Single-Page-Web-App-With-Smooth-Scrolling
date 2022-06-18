@@ -20,8 +20,9 @@ const Contact = () => {
    
           </div>
 
-          <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8">
-            <div className="card event-form-design">
+          <div className="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+            
+            <div className="event-form-design">
               <Flip left>
                 <div className="text-center">
                   <h5 className="text-center">Contact Form</h5>
@@ -77,6 +78,8 @@ const Contact = () => {
                 </div>
               </form>
             </div>
+
+
           </div>
         </div>
       </div>
