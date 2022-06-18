@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./home.css";
 import Typical from "react-typical";
 import Fade from "react-reveal/Fade";
-import Flip from "react-reveal/Flip";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,

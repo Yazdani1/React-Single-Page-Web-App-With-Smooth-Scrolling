@@ -2,7 +2,6 @@ import React from "react";
 import "./subscription.css";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Fade from "react-reveal/Fade";
-import Flip from "react-reveal/Flip";
 
 const Subscription = () => {
   return (
