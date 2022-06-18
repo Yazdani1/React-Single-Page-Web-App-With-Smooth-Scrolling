@@ -14,6 +14,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import ReactSwitch from "react-switch";
 import Contact from "./components/Contact/Contact";
+import ScrollToTop from "react-scroll-up"
 
 export const ThemeContext = createContext(null);
 
@@ -42,11 +43,14 @@ const App = () => {
         <Team />
         <Testimonial />
         <Feedback />
-        <Contact/>
-
+        <Contact />
       </div>
       <Subscription />
       <Footer />
+
+      <ScrollToTop showUnder={160} topPosition={1}>
+        <span>UP</span>
+      </ScrollToTop>
     </ThemeContext.Provider>
   );
 };

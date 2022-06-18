@@ -44,7 +44,8 @@
   padding: 10px;
   border-radius: 30px;
   transition-duration: 1s;
-  cursor: pointer;}
+  cursor: pointer;
+}
 
 .theme-chang {
   justify-content: center;
