@@ -127,9 +127,7 @@ const Testimonial = () => {
           <Fade right>
             <div className="col-lg-4 col-md-6 col-xl-4" key={item.id}>
               <div
-                className={
-                  index === 0 ? "content-with-marked" : "content"
-                }
+                className={index === 0 ? "content-with-marked" : "content"}
                 // style={{ backgroundColor: "brown", color: "white" }}
               >
                 <img src={item.img} alt="image" />
@@ -146,16 +144,7 @@ const Testimonial = () => {
         ))}
 
         {visible >= data.length ? null : (
-          <div
-            style={{
-              textAlign: "center",
-              marginTop: "20px",
-              color: "orange",
-              padding: "10px",
-              cursor: "pointer",
-            }}
-            onClick={loadMore}
-          >
+          <div className="load-more-button" onClick={loadMore}>
             Load More
           </div>
         )}
