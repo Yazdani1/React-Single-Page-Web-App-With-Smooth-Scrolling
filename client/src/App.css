@@ -1,6 +1,29 @@
 /* #light{
     background-color: #f3ebf6;
 } */
-#dark{
-    background-color: #46045e;
+#dark {
+  background-color: #46045e;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(103, 100, 109); 
+  }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF854C; 
+  /* background-color: #38004c; */
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #720ba9;
 }
