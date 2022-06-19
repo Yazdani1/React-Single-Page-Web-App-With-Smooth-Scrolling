@@ -1,9 +1,9 @@
-import React, { useState,useContext } from "react";
+import React, { useState, useContext } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
-import ReactSwitch from "react-switch"
+import ReactSwitch from "react-switch";
 
-const Navbar = ({toggleTheme,theme}) => {
+const Navbar = ({ toggleTheme, theme }) => {
   //to change navcolro while scroll
   const [navColor, setNavColor] = useState(false);
 
@@ -76,17 +76,7 @@ const Navbar = ({toggleTheme,theme}) => {
             Testimonial
           </Link>
         </li>
-        <li className="nav-item">
-          <Link
-            to="subscription"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-          >
-            Subscription
-          </Link>
-        </li>
+
         <li className="nav-item">
           <Link
             to="feedback"
@@ -111,11 +101,20 @@ const Navbar = ({toggleTheme,theme}) => {
           </Link>
         </li>
 
-
-        
         <li className="nav-item">
+          <Link
+            to="subscription"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Subscription
+          </Link>
+        </li>
 
-        {/* <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/> */}
+        <li className="nav-item">
+          {/* <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/> */}
         </li>
       </ul>
 

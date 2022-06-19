@@ -7,6 +7,7 @@ import { GrFacebookOption } from "react-icons/gr";
 import { ImLinkedin2 } from "react-icons/im";
 import { AiOutlineTwitter } from "react-icons/ai";
 
+
 const Team = () => {
   const data = [
     {

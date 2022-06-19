@@ -2,11 +2,16 @@ import React from "react";
 import "./video.css";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
+import ReactPlayer from "react-player";
+
 import { FcMindMap, FcSlrBackSide } from "react-icons/fc";
 
 import { BsFillDice5Fill } from "react-icons/bs";
 
 const Video = () => {
+
+  const url = "https://www.youtube.com/embed/ABrjdyavqkI"
+
   return (
     <React.Fragment>
       <div className=" container video-section" id="video">
@@ -70,7 +75,6 @@ const Video = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </Fade>
           </div>
@@ -78,14 +82,24 @@ const Video = () => {
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <Fade right>
               <div className="youtube-video">
-                <iframe
+                <ReactPlayer
+                  loop={true}
+                  playing={false}
+                  controls
+                  width='100%'
+                  height='100%'
+                  className='react-player'
+                  url={url}
+                />
+
+                {/* <iframe
                   height="420"
                   src="https://www.youtube.com/embed/ABrjdyavqkI"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                ></iframe>
+                ></iframe> */}
               </div>
             </Fade>
           </div>
