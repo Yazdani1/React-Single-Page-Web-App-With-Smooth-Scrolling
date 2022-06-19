@@ -33,7 +33,7 @@ const Feedback = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Isabella",
       position: "Node js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 4,
@@ -41,7 +41,7 @@ const Feedback = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Elijah",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 5,
@@ -49,7 +49,7 @@ const Feedback = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Charlotte",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 5,
@@ -108,12 +108,13 @@ const Feedback = () => {
           {data.map((item, index) => (
             <Fade right>
               <div className="col-lg-12 col-md-12 col-xl-12" key={item.id}>
-                <div className="card content-slide">
-                  <img src={item.img} alt="image"  className="center-image" />
+                <div className="card content-slide" key={index}>
+                  <img src={item.img} alt="image" className="center-image" />
+           
                   <p>{item.content}</p>
-                  <p>
-                    <span className="name">{item.name}</span>
-                  </p>
+                  <h4>
+                    <span className="feedback-name">{item.name}</span>
+                  </h4>
                   <p>{item.position}</p>
                 </div>
               </div>

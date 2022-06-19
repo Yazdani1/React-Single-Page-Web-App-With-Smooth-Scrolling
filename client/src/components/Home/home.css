@@ -75,6 +75,8 @@
   .theme-chang {
     background-color: #9dd60b;
     margin-right: 50px;
+    z-index: 1;
+
   }
 }
 

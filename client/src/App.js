@@ -53,7 +53,8 @@ const App = () => {
         smooth
         color="white"
         height="20"
-        style={{ borderRadius: "90px", backgroundColor: "#38004c" }}
+        width="20"
+        style={{ borderRadius: "90px", backgroundColor: "#38004c", }}
       />
     </ThemeContext.Provider>
   );

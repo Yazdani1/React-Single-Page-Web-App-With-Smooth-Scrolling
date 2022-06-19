@@ -31,7 +31,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Charlotte",
       position: "Node js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 4,
@@ -39,7 +39,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Emily",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 5,
@@ -47,7 +47,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Jayden",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 6,
@@ -55,7 +55,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Elizabeth",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 7,
@@ -63,7 +63,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Jacob",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 8,
@@ -71,7 +71,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Michael",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 9,
@@ -79,7 +79,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Daniel",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 10,
@@ -87,7 +87,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Anthony",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 11,
@@ -95,7 +95,7 @@ const Testimonial = () => {
     {
       content:
         "It is not every day that you come across a passionate and trustworthy financial advisor",
-      name: "Bochum",
+      name: "Aiden",
       position: "Nuxt js developer",
       img: "https://images.pexels.com/photos/3608039/pexels-photo-3608039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       id: 12,
