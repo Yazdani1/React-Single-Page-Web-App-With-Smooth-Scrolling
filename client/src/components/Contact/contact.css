@@ -12,7 +12,6 @@
   color: white;
 }
 
-
 /* for form */
 
 .contact-form-design {
@@ -55,13 +54,13 @@
   margin-top: 0px;
 }
 
-#dark .custom-select{
+#dark .custom-select {
   border-color: rgb(4, 125, 28);
   background-color: #38004c;
   color: white;
 }
 
-#dark .contact-form textarea{
+#dark .contact-form textarea {
   border-color: rgb(4, 125, 28);
   background-color: #38004c;
 }
@@ -95,4 +94,10 @@
   top: 0;
   left: 0;
   border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .contact-section {
+    height: auto;
+  }
 }

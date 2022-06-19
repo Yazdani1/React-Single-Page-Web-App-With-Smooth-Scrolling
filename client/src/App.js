@@ -14,7 +14,8 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import ReactSwitch from "react-switch";
 import Contact from "./components/Contact/Contact";
-import ScrollToTop from "react-scroll-up"
+import ScrollToTop from "react-scroll-to-top";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 export const ThemeContext = createContext(null);
 
@@ -48,9 +49,12 @@ const App = () => {
       <Subscription />
       <Footer />
 
-      <ScrollToTop showUnder={160} topPosition={1}>
-        <span>UP</span>
-      </ScrollToTop>
+      <ScrollToTop
+        smooth
+        color="white"
+        height="20"
+        style={{ borderRadius: "90px", backgroundColor: "#38004c" }}
+      />
     </ThemeContext.Provider>
   );
 };
