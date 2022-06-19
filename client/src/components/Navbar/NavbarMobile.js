@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./navmobile.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-scroll";
+import ReactSwitch from "react-switch";
 
-const NavbarMobile = () => {
+const NavbarMobile = ({ toggleTheme, theme }) => {
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
@@ -16,6 +17,7 @@ const NavbarMobile = () => {
         <p>
           <GiHamburgerMenu size={25} onClick={handleClick} />
         </p>
+     
       </div>
 
       {open ? (
@@ -117,6 +119,10 @@ const NavbarMobile = () => {
               >
                 Contact
               </Link>
+            </li>
+
+            <li className="nav-item">
+              <ReactSwitch onChange={toggleTheme} checked={theme === "light"} />
             </li>
           </ul>
         </div>

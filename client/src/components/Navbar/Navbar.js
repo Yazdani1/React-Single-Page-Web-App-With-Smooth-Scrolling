@@ -61,7 +61,7 @@ const Navbar = ({ toggleTheme, theme }) => {
 
         <li className="nav-item">
           <Link to="video" spy={true} smooth={true} offset={-100}>
-            Demo Video
+            Video
           </Link>
         </li>
 
@@ -113,9 +113,9 @@ const Navbar = ({ toggleTheme, theme }) => {
           </Link>
         </li>
 
-        <li className="nav-item">
-          {/* <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/> */}
-        </li>
+        {/* <li className="nav-item">
+          <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/>
+        </li> */}
       </ul>
 
       {/* Normal way to do single page using id of the main container */}

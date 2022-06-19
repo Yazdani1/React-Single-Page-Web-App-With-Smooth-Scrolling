@@ -17,7 +17,7 @@ const Video = () => {
       <div className=" container video-section" id="video">
         <div className="video-title">
           <Flip left>
-            <h5>Video Demo</h5>
+            <h5>Video</h5>
             <span className="line"></span>
           </Flip>
         </div>
