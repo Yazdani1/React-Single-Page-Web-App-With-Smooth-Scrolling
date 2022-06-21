@@ -63,7 +63,7 @@ app.post("/sendemail", (req, res) => {
     to: "yaz4noor@gmail.com",
     from: "yaz4noor@gmail.com",
     subject: "Service needed message",
-    html: `<h1>Welcome to this job portal web-site. You have become a member
+    html: `<h1>You have one new E-mail:
         
         <h5>Your Details</h5>
         <ul>
