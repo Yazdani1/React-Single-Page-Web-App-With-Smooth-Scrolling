@@ -62,7 +62,7 @@ app.post("/sendemail", (req, res) => {
   transporter.sendMail({
     to: "yaz4noor@gmail.com",
     from: "yaz4noor@gmail.com",
-    subject: "Service needed message",
+    subject: "Contact Message",
     html: `<h1>You have one new E-mail:
         
         <h5>Your Details</h5>
