@@ -124,6 +124,7 @@ const Career = () => {
           <Pagination pageCount={pageCount} handlePageClick={handlePageClick} />
         </div>
       </Fade>
+      
     </div>
   );
 };

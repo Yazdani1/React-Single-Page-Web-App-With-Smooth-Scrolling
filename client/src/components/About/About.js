@@ -48,6 +48,8 @@ const About = () => {
                   </div>
                 </div>
               </div>
+
+              
               <div className="card-design" style={{ marginTop: "10px" }}>
                 <div className="about-item-list">
                   <span className="about-details-icons">

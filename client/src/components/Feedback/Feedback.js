@@ -122,6 +122,8 @@ const Feedback = () => {
           ))}
         </Slider>
       </div>
+
+      
     </div>
   );
 };

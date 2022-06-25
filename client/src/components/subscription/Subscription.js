@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade";
 
 const Subscription = () => {
   return (
-    <React.Fragment>
       <div className="container-fluid subscription" id="subscription">
         <div className="container ">
           <div className="row">
@@ -32,7 +31,6 @@ const Subscription = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
   );
 };
 
