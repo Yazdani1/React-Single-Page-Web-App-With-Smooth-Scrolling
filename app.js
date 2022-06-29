@@ -46,19 +46,6 @@ app.post("/sendemail", (req, res) => {
     return res.status(400).json({ error: "Please add your message" });
   }
 
-  //   const sendemail = new SendEmail({
-  //     name,
-  //     email,
-  //     servicetype,
-  //     message,
-  //   });
-
-  //   sendemail.save().then((sendEmailData) => {
-
-  //     res.json({ sendEmailData });
-
-  //   });
-
   transporter.sendMail({
     to: "yaz4noor@gmail.com",
     from: "yaz4noor@gmail.com",

@@ -20,6 +20,8 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 export const ThemeContext = createContext(null);
 
 const App = () => {
+
+  
   const [theme, setTheme] = useState("light");
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
