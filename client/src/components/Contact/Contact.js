@@ -34,7 +34,7 @@ const Contact = () => {
           });
           console.log(result.error);
         } else {
-          toast.success("Your e-mail sent successfully! ", {
+          toast.success("Your e-mail has been sent successfully! ", {
             position: toast.POSITION.TOP_RIGHT,
           });
           setName("");
