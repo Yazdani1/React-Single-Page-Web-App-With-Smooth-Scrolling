@@ -101,17 +101,7 @@ const Navbar = ({ toggleTheme, theme }) => {
           </Link>
         </li>
 
-        <li className="nav-item">
-          <Link
-            to="subscription"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-          >
-            Subscription
-          </Link>
-        </li>
+     
 
         {/* <li className="nav-item">
           <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/>
