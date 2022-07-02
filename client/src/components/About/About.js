@@ -19,72 +19,71 @@ const About = () => {
         </div>
 
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-          <div className="card about-details">
-            <div className="testimonial">
-              <Flip left>
-                <h5>About</h5>
-                <span className="line"></span>
-              </Flip>
-            </div>
-            <Fade right>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-              </p>
+            <div className="card about-details">
+              <div className="testimonial">
+                <Flip left>
+                  <h5>About</h5>
+                  <span className="line"></span>
+                </Flip>
+              </div>
+              <Fade right>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
 
-              <div className="card-design" style={{ marginTop: "10px" }}>
-                <div className="about-item-list">
-                  <span className="about-details-icons">
-                    <p>
-                      <FcSlrBackSide size={50} />
-                    </p>
-                  </span>
-                  <div>
-                    <h6>Perfect day out</h6>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content.
-                    </p>
+                <div className="card-design" style={{ marginTop: "10px" }}>
+                  <div className="about-item-list">
+                    <span className="about-details-icons">
+                      <p>
+                        <FcSlrBackSide size={50} />
+                      </p>
+                    </span>
+                    <div>
+                      <h6>Perfect day out</h6>
+                      <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              
-              <div className="card-design" style={{ marginTop: "10px" }}>
-                <div className="about-item-list">
-                  <span className="about-details-icons">
-                    <p>
-                      <BsFillDice5Fill size={50} />
-                    </p>
-                  </span>
-                  <div>
-                    <h6>Perfect day out</h6>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content.
-                    </p>
+                <div className="card-design" style={{ marginTop: "10px" }}>
+                  <div className="about-item-list">
+                    <span className="about-details-icons">
+                      <p>
+                        <BsFillDice5Fill size={50} />
+                      </p>
+                    </span>
+                    <div>
+                      <h6>Perfect day out</h6>
+                      <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="card-design" style={{ marginTop: "10px" }}>
-                <div className="about-item-list">
-                  <span className="about-details-icons">
-                    <p>
-                      <FcMindMap size={50} />
-                    </p>
-                  </span>
-                  <div>
-                    <h6>Perfect day out</h6>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content.
-                    </p>
+                <div className="card-design" style={{ marginTop: "10px" }}>
+                  <div className="about-item-list">
+                    <span className="about-details-icons">
+                      <p>
+                        <FcMindMap size={50} />
+                      </p>
+                    </span>
+                    <div>
+                      <h6>Perfect day out</h6>
+                      <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/* <div className="card about-list">
+                {/* <div className="card about-list">
                 <p>
                 
                   <FcApproval size={20} /> It is a long established fact that a
@@ -105,8 +104,9 @@ const About = () => {
                   It is a long established fact that a reader.
                 </p>
               </div> */}
-            </Fade>
-          </div>
+              </Fade>
+            </div>
+          
         </div>
       </div>
     </div>
