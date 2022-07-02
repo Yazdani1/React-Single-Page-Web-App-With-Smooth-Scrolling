@@ -40,26 +40,6 @@ const Home = ({ toggleTheme, theme }) => {
         </p> */}
         </div>
 
-        {/* <div className="theme-chang">
-        <p
-          onClick={() => {
-            toggleTheme();
-            showThemeOptions();
-          }}
-          className={theme}
-        >
-          <AiFillSetting size={40} />
-        </p>
-        <div style={{ width: "150px" }}>
-          {show ? (
-            <div className="card">
-              <p>Light Theme</p>
-              <p>Dark Theme</p>
-            </div>
-          ) : null}
-        </div>
-      </div> */}
-
         <Fade left>
           <div className="container home-content">
             <h1>
