@@ -86,10 +86,10 @@ const Career = () => {
       </div>
 
       <div className="career-main-content">
-        {currrentPagedata.map((item, i) => (
+        {currrentPagedata.map((item, index) => (
           <>
             <Fade left>
-              <Data key={item.id} {...item} />
+              <Data key={item.id} {...item} index={index}/>
             </Fade>
             {/* <Data key={item.id} title={item.title} des={item.body} /> */}
             {/* to open only one option at the time of collapse */}
